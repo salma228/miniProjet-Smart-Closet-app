@@ -1,0 +1,1001 @@
+Gender,Weather,Temperature,Humidity,Location,Activity,Duration,Topwear,Bottomwear,Outerwear,Footwear
+Female,Cloudy,24,96,Indoor,Berjalan,1,Tshirts,Trousers,None,Casual Shoes
+Female,Rainy,22,78,Outdoor,Santai,15,Shirts,Trousers,Jackets,Boots
+Male,Sunny,9,84,Outdoor,Kondangan,18,Blazers,Trousers,Sweatshirts,Formal Shoes
+Male,Cloudy,15,100,Indoor,Bekerja,23,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Cloudy,29,71,Indoor,Kondangan,16,Tops,Skirts,None,Sepatu Hak
+Female,Rainy,24,77,Outdoor,Santai,15,Tops,Trousers,Jackets,Boots
+Male,Sunny,15,93,Outdoor,Kondangan,15,Blazers,Trousers,Sweatshirts,Formal Shoes
+Female,Sunny,34,79,Outdoor,Berjalan,13,Tshirts,Shorts,None,Casual Shoes
+Male,Cloudy,25,100,Outdoor,Berjalan,17,Shirts,Trousers,None,Casual Shoes
+Male,Cloudy,21,67,Indoor,Kondangan,21,Blazers,Trousers,None,Formal Shoes
+Male,Berawan,35,68,Indoor,Santai,14,Tshirts,Shorts,None,Sandals
+Male,Berawan,32,65,Indoor,Bekerja,15,Shirts,Trousers,None,Casual Shoes
+Male,Berawan,20,72,Indoor,Santai,5,Shirts,Trousers,None,Sandals
+Female,Sunny,13,82,Outdoor,Bekerja,14,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Cloudy,15,69,Outdoor,Olahraga,13,Tshirts,Legging,Sweatshirts,Casual Shoes
+Female,Gerimis,38,97,Outdoor,Santai,3,Tshirts,Skirts,None,Sandals
+Female,Cloudy,26,67,Outdoor,Olahraga,24,Tshirts,Legging,None,Casual Shoes
+Male,Sunny,24,82,Indoor,Olahraga,12,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Rainy,40,62,Outdoor,Bekerja,10,Shirts,Shorts,Jackets,Boots
+Female,Cloudy,8,67,Outdoor,Kondangan,24,Tops,Skirts,Sweatshirts,Sepatu Hak
+Male,Sunny,17,85,Indoor,Berjalan,2,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,38,60,Indoor,Kondangan,3,Tops,Skirts,None,Sepatu Hak
+Female,Cloudy,35,71,Indoor,Bekerja,24,Shirts,Skirts,None,Casual Shoes
+Female,Sunny,19,65,Indoor,Santai,2,Tshirts,Trousers,Sweatshirts,Sandals
+Female,Rainy,38,76,Outdoor,Berjalan,17,Tshirts,Shorts,Jackets,Boots
+Male,Berawan,34,96,Indoor,Kondangan,19,Blazers,Shorts,None,Formal Shoes
+Female,Gerimis,23,66,Indoor,Bekerja,24,Shirts,Trousers,None,Casual Shoes
+Male,Cloudy,34,60,Outdoor,Santai,24,Tshirts,Shorts,None,Sandals
+Female,Gerimis,31,93,Indoor,Bekerja,1,Shirts,Trousers,None,Casual Shoes
+Female,Rainy,8,91,Indoor,Santai,8,Shirts,Trousers,Jackets,Boots
+Female,Berawan,32,94,Outdoor,Olahraga,13,Tshirts,Legging,None,Casual Shoes
+Male,Rainy,19,86,Outdoor,Berjalan,9,Shirts,Trousers,Jackets,Boots
+Female,Rainy,39,93,Outdoor,Olahraga,5,Tshirts,Legging,Jackets,Casual Shoes
+Male,Gerimis,30,92,Indoor,Berjalan,8,Tshirts,Trousers,None,Casual Shoes
+Female,Sunny,24,72,Outdoor,Santai,9,Tops,Trousers,None,Sandals
+Male,Sunny,19,86,Outdoor,Olahraga,4,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Male,Berawan,22,87,Outdoor,Bekerja,15,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,14,65,Indoor,Santai,16,Shirts,Trousers,Sweatshirts,Sandals
+Female,Rainy,39,68,Indoor,Olahraga,15,Tshirts,Legging,Jackets,Casual Shoes
+Female,Cloudy,31,88,Outdoor,Berjalan,7,Shirts,Trousers,None,Casual Shoes
+Male,Sunny,12,60,Indoor,Berjalan,20,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,15,95,Indoor,Santai,6,Tshirts,Trousers,Jackets,Boots
+Female,Rainy,31,100,Outdoor,Santai,4,Tshirts,Trousers,Jackets,Boots
+Female,Cloudy,28,69,Indoor,Berjalan,2,Tshirts,Trousers,None,Casual Shoes
+Female,Cloudy,26,81,Indoor,Kondangan,2,Tops,Skirts,None,Sepatu Hak
+Male,Sunny,18,80,Indoor,Bekerja,3,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Gerimis,14,70,Indoor,Santai,7,Shirts,Trousers,Sweatshirts,Sandals
+Male,Sunny,14,71,Outdoor,Santai,22,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Berawan,32,76,Outdoor,Kondangan,8,Blazers,Trousers,None,Formal Shoes
+Female,Berawan,16,66,Outdoor,Kondangan,8,Tops,Skirts,Sweatshirts,Sepatu Hak
+Female,Rainy,19,83,Indoor,Santai,2,Tops,Trousers,Jackets,Boots
+Male,Cloudy,30,97,Outdoor,Bekerja,12,Shirts,Trousers,None,Casual Shoes
+Male,Rainy,19,70,Outdoor,Santai,17,Shirts,Trousers,Jackets,Boots
+Female,Berawan,9,93,Outdoor,Santai,20,Shirts,Trousers,Sweatshirts,Sandals
+Male,Sunny,15,83,Outdoor,Berjalan,7,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,13,61,Outdoor,Berjalan,15,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,23,95,Outdoor,Santai,5,Shirts,Trousers,None,Sandals
+Female,Rainy,30,93,Indoor,Berjalan,22,Tshirts,Trousers,Jackets,Boots
+Male,Cloudy,21,100,Outdoor,Santai,12,Tshirts,Trousers,None,Sandals
+Male,Rainy,8,98,Outdoor,Olahraga,14,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Female,Gerimis,26,66,Outdoor,Olahraga,6,Tshirts,Legging,None,Casual Shoes
+Female,Berawan,27,85,Outdoor,Santai,16,Shirts,Trousers,None,Sandals
+Female,Cloudy,12,100,Indoor,Santai,22,Tshirts,Trousers,Sweatshirts,Sandals
+Female,Cloudy,22,75,Outdoor,Bekerja,23,Shirts,Trousers,None,Casual Shoes
+Male,Cloudy,23,61,Indoor,Bekerja,24,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,9,66,Indoor,Bekerja,24,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Rainy,18,90,Indoor,Berjalan,4,Shirts,Trousers,Jackets,Boots
+Female,Rainy,24,64,Outdoor,Berjalan,16,Shirts,Trousers,Jackets,Boots
+Female,Berawan,39,61,Indoor,Berjalan,24,Tshirts,Skirts,None,Casual Shoes
+Female,Rainy,26,78,Outdoor,Santai,6,Tshirts,Trousers,Jackets,Boots
+Male,Cloudy,9,100,Indoor,Santai,11,Tshirts,Trousers,Sweatshirts,Sandals
+Female,Gerimis,30,66,Indoor,Olahraga,16,Tshirts,Legging,None,Casual Shoes
+Male,Berawan,13,79,Outdoor,Kondangan,7,Blazers,Trousers,Sweatshirts,Formal Shoes
+Male,Cloudy,14,70,Indoor,Berjalan,4,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Cloudy,17,83,Indoor,Bekerja,6,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Gerimis,34,82,Indoor,Berjalan,20,Tshirts,Shorts,None,Casual Shoes
+Female,Gerimis,31,88,Indoor,Santai,13,Shirts,Trousers,None,Sandals
+Male,Rainy,30,90,Outdoor,Bekerja,8,Shirts,Trousers,Jackets,Boots
+Male,Rainy,18,62,Outdoor,Bekerja,13,Shirts,Trousers,Jackets,Boots
+Female,Gerimis,25,66,Outdoor,Olahraga,3,Tshirts,Legging,None,Casual Shoes
+Male,Berawan,35,95,Outdoor,Kondangan,14,Blazers,Shorts,None,Formal Shoes
+Male,Berawan,40,88,Outdoor,Berjalan,9,Tshirts,Shorts,None,Casual Shoes
+Female,Gerimis,31,70,Outdoor,Kondangan,2,Tops,Skirts,None,Sepatu Hak
+Female,Gerimis,36,97,Indoor,Santai,8,Tshirts,Shorts,None,Sandals
+Female,Berawan,28,93,Outdoor,Santai,15,Tshirts,Trousers,None,Sandals
+Male,Gerimis,12,92,Outdoor,Berjalan,15,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Rainy,26,100,Indoor,Kondangan,12,Tops,Skirts,Jackets,Boots
+Female,Gerimis,32,62,Indoor,Olahraga,5,Tshirts,Legging,None,Casual Shoes
+Male,Berawan,27,78,Outdoor,Berjalan,15,Tshirts,Trousers,None,Casual Shoes
+Male,Berawan,24,67,Indoor,Santai,14,Shirts,Trousers,None,Sandals
+Female,Cloudy,16,62,Outdoor,Bekerja,23,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Sunny,28,75,Outdoor,Berjalan,13,Tshirts,Trousers,None,Casual Shoes
+Female,Rainy,21,65,Outdoor,Santai,6,Shirts,Trousers,Jackets,Boots
+Male,Rainy,20,90,Outdoor,Berjalan,24,Tshirts,Trousers,Jackets,Boots
+Male,Sunny,37,81,Indoor,Berjalan,4,Tshirts,Shorts,None,Casual Shoes
+Female,Sunny,25,91,Indoor,Kondangan,10,Tops,Skirts,None,Sepatu Hak
+Female,Cloudy,9,72,Outdoor,Santai,24,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Berawan,15,68,Indoor,Bekerja,11,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,12,69,Outdoor,Olahraga,19,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Female,Sunny,13,61,Outdoor,Olahraga,5,Tshirts,Legging,Sweatshirts,Casual Shoes
+Female,Sunny,29,72,Outdoor,Bekerja,4,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,39,62,Outdoor,Berjalan,21,Tshirts,Shorts,None,Casual Shoes
+Male,Sunny,16,70,Outdoor,Berjalan,2,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Female,Sunny,28,70,Indoor,Bekerja,15,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,34,100,Outdoor,Kondangan,8,Blazers,Shorts,None,Formal Shoes
+Male,Cloudy,13,70,Indoor,Kondangan,14,Blazers,Trousers,Sweatshirts,Formal Shoes
+Female,Sunny,21,75,Outdoor,Olahraga,23,Tshirts,Legging,None,Casual Shoes
+Female,Rainy,16,62,Outdoor,Kondangan,5,Tops,Skirts,Jackets,Boots
+Female,Cloudy,26,91,Outdoor,Bekerja,7,Shirts,Trousers,None,Casual Shoes
+Female,Gerimis,35,98,Indoor,Santai,4,Tshirts,Shorts,None,Sandals
+Male,Cloudy,38,84,Outdoor,Berjalan,10,Tshirts,Shorts,None,Casual Shoes
+Female,Sunny,26,68,Outdoor,Santai,11,Shirts,Trousers,None,Sandals
+Male,Gerimis,29,83,Indoor,Kondangan,1,Blazers,Trousers,None,Formal Shoes
+Male,Sunny,21,91,Outdoor,Santai,22,Tshirts,Trousers,None,Sandals
+Male,Gerimis,9,76,Outdoor,Santai,13,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Berawan,39,60,Outdoor,Bekerja,12,Shirts,Shorts,None,Casual Shoes
+Male,Rainy,8,66,Outdoor,Kondangan,10,Blazers,Trousers,Jackets,Boots
+Male,Cloudy,28,94,Indoor,Bekerja,14,Shirts,Trousers,None,Casual Shoes
+Male,Berawan,20,62,Outdoor,Santai,20,Shirts,Trousers,None,Sandals
+Male,Rainy,16,100,Outdoor,Santai,3,Tshirts,Trousers,Jackets,Boots
+Male,Cloudy,24,91,Indoor,Kondangan,12,Blazers,Trousers,None,Formal Shoes
+Female,Cloudy,28,85,Outdoor,Kondangan,18,Tops,Skirts,None,Sepatu Hak
+Female,Berawan,21,64,Outdoor,Santai,6,Tops,Trousers,None,Sandals
+Female,Sunny,17,94,Indoor,Berjalan,23,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,8,92,Indoor,Santai,1,Shirts,Trousers,Jackets,Boots
+Female,Cloudy,29,64,Outdoor,Berjalan,14,Tshirts,Trousers,None,Casual Shoes
+Female,Gerimis,27,90,Indoor,Berjalan,18,Tops,Trousers,None,Casual Shoes
+Male,Cloudy,31,99,Indoor,Bekerja,14,Shirts,Trousers,None,Casual Shoes
+Male,Cloudy,28,65,Outdoor,Berjalan,7,Tshirts,Trousers,None,Casual Shoes
+Male,Rainy,8,88,Indoor,Santai,6,Tshirts,Trousers,Jackets,Boots
+Male,Berawan,18,61,Outdoor,Bekerja,5,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,23,77,Indoor,Berjalan,7,Tshirts,Trousers,None,Casual Shoes
+Male,Cloudy,13,81,Indoor,Kondangan,24,Blazers,Trousers,Sweatshirts,Formal Shoes
+Male,Rainy,12,77,Outdoor,Olahraga,14,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Female,Cloudy,23,85,Outdoor,Bekerja,13,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,39,76,Outdoor,Bekerja,17,Shirts,Shorts,None,Casual Shoes
+Female,Sunny,20,66,Outdoor,Kondangan,22,Tops,Skirts,None,Sepatu Hak
+Male,Sunny,37,83,Outdoor,Berjalan,7,Tshirts,Shorts,None,Casual Shoes
+Female,Cloudy,27,79,Outdoor,Olahraga,15,Tshirts,Legging,None,Casual Shoes
+Female,Rainy,14,64,Indoor,Kondangan,12,Tops,Skirts,Jackets,Boots
+Female,Sunny,11,66,Outdoor,Bekerja,9,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Rainy,37,82,Outdoor,Bekerja,17,Shirts,Shorts,Jackets,Boots
+Female,Sunny,23,80,Outdoor,Berjalan,9,Shirts,Trousers,None,Casual Shoes
+Female,Rainy,30,64,Outdoor,Bekerja,2,Shirts,Trousers,Jackets,Boots
+Male,Berawan,28,81,Indoor,Santai,9,Tshirts,Trousers,None,Sandals
+Male,Sunny,26,60,Outdoor,Berjalan,23,Tshirts,Trousers,None,Casual Shoes
+Male,Cloudy,19,95,Indoor,Santai,14,Shirts,Trousers,Sweatshirts,Sandals
+Female,Gerimis,23,68,Indoor,Bekerja,13,Shirts,Trousers,None,Casual Shoes
+Male,Sunny,24,95,Indoor,Berjalan,7,Shirts,Trousers,None,Casual Shoes
+Female,Gerimis,35,95,Outdoor,Bekerja,5,Shirts,Skirts,None,Casual Shoes
+Male,Sunny,38,81,Indoor,Santai,12,Tshirts,Shorts,None,Sandals
+Female,Cloudy,11,65,Outdoor,Berjalan,11,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Sunny,32,63,Outdoor,Berjalan,3,Shirts,Trousers,None,Casual Shoes
+Male,Cloudy,16,99,Outdoor,Kondangan,8,Blazers,Trousers,Sweatshirts,Formal Shoes
+Female,Sunny,39,84,Indoor,Bekerja,17,Shirts,Shorts,None,Casual Shoes
+Male,Rainy,14,97,Outdoor,Santai,12,Tshirts,Trousers,Jackets,Boots
+Male,Berawan,10,99,Indoor,Bekerja,3,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,33,75,Outdoor,Kondangan,23,Tops,Skirts,None,Sepatu Hak
+Male,Cloudy,29,68,Outdoor,Bekerja,17,Shirts,Trousers,None,Casual Shoes
+Male,Cloudy,38,67,Indoor,Olahraga,11,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Gerimis,34,68,Indoor,Santai,12,Tshirts,Shorts,None,Sandals
+Male,Sunny,9,89,Outdoor,Berjalan,6,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,40,91,Outdoor,Bekerja,4,Shirts,Shorts,None,Casual Shoes
+Male,Rainy,20,94,Indoor,Bekerja,16,Shirts,Trousers,Jackets,Boots
+Male,Cloudy,27,76,Indoor,Santai,5,Shirts,Trousers,None,Sandals
+Female,Sunny,20,80,Outdoor,Olahraga,1,Tshirts,Legging,None,Casual Shoes
+Female,Gerimis,27,72,Outdoor,Berjalan,16,Tshirts,Trousers,None,Casual Shoes
+Male,Rainy,30,69,Indoor,Santai,23,Shirts,Trousers,Jackets,Boots
+Female,Cloudy,8,87,Indoor,Olahraga,18,Tshirts,Legging,Sweatshirts,Casual Shoes
+Female,Berawan,16,84,Indoor,Olahraga,23,Tshirts,Legging,Sweatshirts,Casual Shoes
+Male,Sunny,24,87,Indoor,Berjalan,4,Tshirts,Trousers,None,Casual Shoes
+Male,Sunny,15,60,Indoor,Santai,5,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Rainy,20,85,Outdoor,Berjalan,15,Tshirts,Trousers,Jackets,Boots
+Male,Sunny,29,68,Outdoor,Santai,7,Tshirts,Trousers,None,Sandals
+Female,Sunny,9,78,Outdoor,Santai,5,Shirts,Trousers,Sweatshirts,Sandals
+Female,Cloudy,9,61,Indoor,Olahraga,24,Tshirts,Legging,Sweatshirts,Casual Shoes
+Male,Gerimis,10,68,Indoor,Bekerja,8,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Sunny,9,69,Indoor,Olahraga,22,Tshirts,Legging,Sweatshirts,Casual Shoes
+Female,Gerimis,8,68,Outdoor,Kondangan,18,Tops,Skirts,Sweatshirts,Sepatu Hak
+Male,Rainy,25,87,Outdoor,Santai,7,Tshirts,Trousers,Jackets,Boots
+Female,Rainy,33,71,Indoor,Bekerja,9,Shirts,Shorts,Jackets,Boots
+Female,Rainy,39,79,Indoor,Kondangan,16,Tops,Skirts,Jackets,Boots
+Male,Rainy,27,90,Indoor,Kondangan,10,Blazers,Trousers,Jackets,Boots
+Male,Sunny,39,66,Outdoor,Bekerja,20,Shirts,Shorts,None,Casual Shoes
+Male,Berawan,12,84,Indoor,Santai,5,Tshirts,Trousers,Sweatshirts,Sandals
+Female,Rainy,16,96,Outdoor,Olahraga,23,Tshirts,Legging,Jackets,Casual Shoes
+Male,Sunny,13,73,Outdoor,Berjalan,21,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Female,Gerimis,30,87,Outdoor,Bekerja,12,Shirts,Trousers,None,Casual Shoes
+Female,Berawan,24,82,Indoor,Santai,10,Shirts,Trousers,None,Sandals
+Male,Rainy,34,82,Indoor,Olahraga,11,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Female,Gerimis,31,73,Indoor,Bekerja,1,Shirts,Trousers,None,Casual Shoes
+Female,Gerimis,22,70,Indoor,Bekerja,23,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,21,78,Outdoor,Santai,14,Tshirts,Trousers,None,Sandals
+Male,Berawan,23,60,Outdoor,Olahraga,14,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Sunny,29,80,Outdoor,Santai,5,Tshirts,Trousers,None,Sandals
+Female,Cloudy,17,68,Indoor,Olahraga,2,Tshirts,Legging,Sweatshirts,Casual Shoes
+Female,Rainy,14,74,Outdoor,Bekerja,21,Shirts,Trousers,Jackets,Boots
+Male,Berawan,8,67,Indoor,Kondangan,20,Blazers,Trousers,Sweatshirts,Formal Shoes
+Female,Berawan,19,94,Indoor,Olahraga,13,Tshirts,Legging,Sweatshirts,Casual Shoes
+Male,Gerimis,8,100,Indoor,Olahraga,5,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Female,Sunny,29,64,Outdoor,Kondangan,7,Tops,Skirts,None,Sepatu Hak
+Male,Gerimis,38,71,Indoor,Berjalan,17,Tshirts,Shorts,None,Casual Shoes
+Male,Sunny,21,77,Indoor,Olahraga,17,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Cloudy,10,75,Indoor,Bekerja,21,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,23,80,Outdoor,Berjalan,22,Shirts,Trousers,None,Casual Shoes
+Male,Rainy,18,62,Indoor,Santai,24,Tshirts,Trousers,Jackets,Boots
+Female,Berawan,28,60,Outdoor,Berjalan,8,Shirts,Trousers,None,Casual Shoes
+Female,Gerimis,27,76,Indoor,Kondangan,3,Tops,Skirts,None,Sepatu Hak
+Male,Gerimis,37,84,Outdoor,Olahraga,9,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Gerimis,22,75,Indoor,Bekerja,11,Shirts,Trousers,None,Casual Shoes
+Male,Rainy,35,79,Indoor,Bekerja,22,Shirts,Shorts,Jackets,Boots
+Female,Rainy,15,84,Indoor,Santai,16,Tshirts,Trousers,Jackets,Boots
+Female,Cloudy,25,100,Indoor,Berjalan,15,Shirts,Trousers,None,Casual Shoes
+Male,Cloudy,23,89,Outdoor,Kondangan,7,Blazers,Trousers,None,Formal Shoes
+Female,Rainy,29,93,Indoor,Olahraga,16,Tshirts,Legging,Jackets,Casual Shoes
+Female,Rainy,29,100,Outdoor,Kondangan,22,Tops,Skirts,Jackets,Boots
+Male,Gerimis,22,71,Outdoor,Santai,2,Tshirts,Trousers,None,Sandals
+Female,Cloudy,21,81,Outdoor,Bekerja,9,Shirts,Trousers,None,Casual Shoes
+Male,Rainy,20,89,Indoor,Olahraga,20,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Male,Cloudy,24,67,Indoor,Berjalan,5,Tshirts,Trousers,None,Casual Shoes
+Female,Rainy,34,85,Indoor,Santai,5,Tshirts,Skirts,Jackets,Boots
+Male,Rainy,15,67,Outdoor,Berjalan,15,Shirts,Trousers,Jackets,Boots
+Female,Sunny,14,89,Outdoor,Santai,21,Tshirts,Trousers,Sweatshirts,Sandals
+Female,Berawan,10,89,Outdoor,Bekerja,15,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Gerimis,29,71,Indoor,Santai,19,Shirts,Trousers,None,Sandals
+Male,Cloudy,9,76,Outdoor,Santai,3,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Cloudy,22,76,Outdoor,Bekerja,13,Shirts,Trousers,None,Casual Shoes
+Female,Berawan,18,87,Outdoor,Berjalan,12,Tops,Trousers,Sweatshirts,Casual Shoes
+Female,Rainy,34,62,Outdoor,Santai,20,Tshirts,Skirts,Jackets,Boots
+Female,Berawan,36,87,Indoor,Santai,13,Tshirts,Skirts,None,Sandals
+Male,Rainy,17,87,Outdoor,Kondangan,14,Blazers,Trousers,Jackets,Boots
+Female,Sunny,32,74,Outdoor,Santai,9,Tops,Trousers,None,Sandals
+Female,Rainy,22,71,Outdoor,Bekerja,8,Shirts,Trousers,Jackets,Boots
+Female,Berawan,30,87,Indoor,Santai,7,Tops,Trousers,None,Sandals
+Male,Rainy,31,63,Indoor,Santai,3,Tshirts,Trousers,Jackets,Boots
+Female,Sunny,10,95,Indoor,Santai,2,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Berawan,12,84,Indoor,Bekerja,19,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Cloudy,34,76,Indoor,Olahraga,10,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Rainy,16,97,Outdoor,Kondangan,17,Tops,Skirts,Jackets,Boots
+Male,Gerimis,40,82,Indoor,Kondangan,19,Blazers,Shorts,None,Formal Shoes
+Male,Rainy,25,78,Indoor,Bekerja,4,Shirts,Trousers,Jackets,Boots
+Female,Sunny,12,67,Outdoor,Berjalan,2,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Cloudy,26,61,Outdoor,Berjalan,12,Shirts,Trousers,None,Casual Shoes
+Female,Gerimis,33,75,Indoor,Bekerja,3,Shirts,Shorts,None,Casual Shoes
+Male,Rainy,32,63,Indoor,Bekerja,12,Shirts,Trousers,Jackets,Boots
+Male,Sunny,30,88,Indoor,Kondangan,7,Blazers,Trousers,None,Formal Shoes
+Male,Cloudy,13,83,Indoor,Kondangan,13,Blazers,Trousers,Sweatshirts,Formal Shoes
+Female,Gerimis,38,81,Indoor,Santai,5,Tshirts,Skirts,None,Sandals
+Female,Berawan,9,62,Outdoor,Bekerja,9,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Sunny,15,85,Outdoor,Kondangan,14,Blazers,Trousers,Sweatshirts,Formal Shoes
+Male,Cloudy,21,63,Indoor,Kondangan,22,Blazers,Trousers,None,Formal Shoes
+Male,Sunny,12,61,Indoor,Bekerja,11,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,32,97,Indoor,Kondangan,19,Tops,Skirts,None,Sepatu Hak
+Male,Gerimis,40,93,Outdoor,Santai,2,Tshirts,Shorts,None,Sandals
+Male,Berawan,33,85,Indoor,Olahraga,20,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Rainy,8,95,Outdoor,Berjalan,13,Tshirts,Trousers,Jackets,Boots
+Female,Rainy,16,78,Indoor,Kondangan,8,Tops,Skirts,Jackets,Boots
+Male,Cloudy,11,78,Outdoor,Bekerja,19,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Cloudy,39,80,Indoor,Santai,17,Tshirts,Shorts,None,Sandals
+Female,Cloudy,16,64,Indoor,Bekerja,5,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Sunny,17,85,Indoor,Bekerja,18,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Sunny,40,87,Indoor,Kondangan,15,Blazers,Shorts,None,Formal Shoes
+Female,Berawan,22,96,Outdoor,Kondangan,23,Tops,Skirts,None,Sepatu Hak
+Female,Gerimis,30,76,Indoor,Kondangan,18,Tops,Skirts,None,Sepatu Hak
+Female,Berawan,18,97,Indoor,Santai,6,Tops,Trousers,Sweatshirts,Sandals
+Female,Sunny,21,68,Indoor,Kondangan,15,Tops,Skirts,None,Sepatu Hak
+Male,Sunny,12,75,Outdoor,Berjalan,19,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,20,76,Indoor,Santai,10,Shirts,Trousers,None,Sandals
+Male,Gerimis,24,72,Outdoor,Olahraga,24,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Cloudy,23,79,Outdoor,Olahraga,23,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Berawan,20,77,Outdoor,Berjalan,1,Tshirts,Trousers,None,Casual Shoes
+Male,Sunny,12,61,Indoor,Bekerja,8,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Cloudy,27,63,Indoor,Olahraga,14,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Gerimis,19,99,Outdoor,Kondangan,13,Tops,Skirts,Sweatshirts,Sepatu Hak
+Male,Berawan,19,99,Indoor,Olahraga,16,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Male,Berawan,17,66,Outdoor,Santai,1,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Sunny,33,96,Outdoor,Berjalan,18,Tshirts,Shorts,None,Casual Shoes
+Male,Cloudy,10,95,Outdoor,Bekerja,20,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,22,86,Indoor,Berjalan,21,Tshirts,Trousers,None,Casual Shoes
+Male,Gerimis,33,63,Indoor,Kondangan,7,Blazers,Shorts,None,Formal Shoes
+Male,Sunny,8,85,Outdoor,Berjalan,22,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Cloudy,20,84,Outdoor,Bekerja,14,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,25,97,Outdoor,Olahraga,7,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Berawan,11,88,Indoor,Bekerja,12,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,30,86,Outdoor,Santai,22,Tops,Trousers,None,Sandals
+Female,Sunny,40,91,Indoor,Kondangan,14,Tops,Skirts,None,Sepatu Hak
+Female,Gerimis,33,72,Outdoor,Berjalan,23,Tshirts,Skirts,None,Casual Shoes
+Male,Berawan,27,98,Outdoor,Berjalan,2,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,22,89,Outdoor,Bekerja,11,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,32,89,Indoor,Bekerja,3,Shirts,Trousers,None,Casual Shoes
+Male,Rainy,13,84,Indoor,Berjalan,19,Shirts,Trousers,Jackets,Boots
+Male,Gerimis,32,70,Indoor,Olahraga,19,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Berawan,16,79,Indoor,Santai,8,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Berawan,15,62,Indoor,Santai,8,Tshirts,Trousers,Sweatshirts,Sandals
+Female,Rainy,30,81,Indoor,Berjalan,7,Tshirts,Trousers,Jackets,Boots
+Male,Cloudy,36,71,Outdoor,Olahraga,23,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Rainy,8,89,Outdoor,Berjalan,21,Shirts,Trousers,Jackets,Boots
+Female,Berawan,35,72,Indoor,Berjalan,7,Tshirts,Skirts,None,Casual Shoes
+Male,Gerimis,14,88,Outdoor,Berjalan,22,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Sunny,17,62,Indoor,Santai,4,Shirts,Trousers,Sweatshirts,Sandals
+Female,Gerimis,16,68,Outdoor,Berjalan,23,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Male,Cloudy,26,61,Indoor,Olahraga,7,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Gerimis,40,78,Outdoor,Olahraga,16,Tshirts,Legging,None,Casual Shoes
+Male,Sunny,14,79,Outdoor,Olahraga,4,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Female,Sunny,27,90,Indoor,Kondangan,5,Tops,Skirts,None,Sepatu Hak
+Male,Sunny,22,93,Indoor,Berjalan,6,Tshirts,Trousers,None,Casual Shoes
+Male,Rainy,29,74,Indoor,Bekerja,11,Shirts,Trousers,Jackets,Boots
+Female,Sunny,32,69,Indoor,Santai,4,Shirts,Trousers,None,Sandals
+Female,Cloudy,25,71,Outdoor,Olahraga,7,Tshirts,Legging,None,Casual Shoes
+Male,Sunny,12,99,Outdoor,Olahraga,21,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Female,Berawan,27,99,Outdoor,Berjalan,16,Shirts,Trousers,None,Casual Shoes
+Male,Rainy,26,75,Indoor,Bekerja,15,Shirts,Trousers,Jackets,Boots
+Male,Cloudy,13,68,Outdoor,Berjalan,3,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Sunny,31,69,Indoor,Bekerja,21,Shirts,Trousers,None,Casual Shoes
+Male,Rainy,38,79,Outdoor,Berjalan,20,Tshirts,Shorts,Jackets,Boots
+Female,Cloudy,31,77,Outdoor,Santai,10,Tops,Trousers,None,Sandals
+Female,Cloudy,15,69,Outdoor,Olahraga,13,Tshirts,Legging,Sweatshirts,Casual Shoes
+Male,Cloudy,36,67,Outdoor,Olahraga,2,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Gerimis,28,71,Outdoor,Kondangan,20,Tops,Skirts,None,Sepatu Hak
+Male,Cloudy,19,79,Indoor,Olahraga,11,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Male,Gerimis,31,75,Outdoor,Berjalan,16,Shirts,Trousers,None,Casual Shoes
+Female,Sunny,36,64,Outdoor,Santai,14,Tshirts,Skirts,None,Sandals
+Female,Cloudy,11,69,Outdoor,Olahraga,5,Tshirts,Legging,Sweatshirts,Casual Shoes
+Male,Berawan,17,70,Indoor,Bekerja,9,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Rainy,31,67,Outdoor,Olahraga,8,Tshirts,Legging,Jackets,Casual Shoes
+Male,Sunny,35,93,Indoor,Olahraga,1,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Rainy,32,84,Indoor,Bekerja,4,Shirts,Trousers,Jackets,Boots
+Male,Rainy,11,96,Outdoor,Berjalan,12,Tshirts,Trousers,Jackets,Boots
+Female,Gerimis,34,79,Outdoor,Bekerja,12,Shirts,Skirts,None,Casual Shoes
+Female,Cloudy,22,83,Outdoor,Bekerja,22,Shirts,Trousers,None,Casual Shoes
+Female,Cloudy,32,76,Outdoor,Berjalan,6,Tops,Trousers,None,Casual Shoes
+Female,Gerimis,24,86,Indoor,Bekerja,19,Shirts,Trousers,None,Casual Shoes
+Female,Sunny,25,70,Indoor,Bekerja,12,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,23,87,Outdoor,Santai,7,Tshirts,Trousers,None,Sandals
+Female,Rainy,8,63,Indoor,Olahraga,4,Tshirts,Legging,Jackets,Casual Shoes
+Female,Sunny,21,69,Indoor,Berjalan,23,Shirts,Trousers,None,Casual Shoes
+Male,Berawan,21,83,Indoor,Bekerja,8,Shirts,Trousers,None,Casual Shoes
+Male,Rainy,28,90,Outdoor,Berjalan,2,Shirts,Trousers,Jackets,Boots
+Female,Berawan,8,78,Indoor,Bekerja,10,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,29,83,Outdoor,Berjalan,13,Tshirts,Trousers,None,Casual Shoes
+Male,Gerimis,15,65,Indoor,Bekerja,4,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,10,69,Indoor,Berjalan,9,Tshirts,Trousers,Jackets,Boots
+Male,Gerimis,8,67,Outdoor,Kondangan,8,Blazers,Trousers,Sweatshirts,Formal Shoes
+Female,Berawan,16,66,Indoor,Bekerja,16,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Sunny,39,81,Indoor,Olahraga,15,Tshirts,Legging,None,Casual Shoes
+Male,Berawan,39,69,Indoor,Kondangan,10,Blazers,Shorts,None,Formal Shoes
+Female,Sunny,25,72,Indoor,Bekerja,18,Shirts,Trousers,None,Casual Shoes
+Male,Sunny,25,81,Outdoor,Berjalan,7,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,8,89,Indoor,Kondangan,8,Blazers,Trousers,Sweatshirts,Formal Shoes
+Female,Sunny,9,66,Indoor,Bekerja,24,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Sunny,34,60,Indoor,Santai,24,Tshirts,Skirts,None,Sandals
+Male,Berawan,18,69,Outdoor,Kondangan,21,Blazers,Trousers,Sweatshirts,Formal Shoes
+Male,Sunny,36,78,Indoor,Santai,23,Tshirts,Shorts,None,Sandals
+Female,Gerimis,34,87,Outdoor,Kondangan,8,Tops,Skirts,None,Sepatu Hak
+Male,Cloudy,24,75,Outdoor,Kondangan,10,Blazers,Trousers,None,Formal Shoes
+Male,Rainy,10,93,Outdoor,Berjalan,17,Tshirts,Trousers,Jackets,Boots
+Male,Rainy,15,84,Indoor,Santai,24,Tshirts,Trousers,Jackets,Boots
+Male,Gerimis,29,89,Indoor,Berjalan,13,Tshirts,Trousers,None,Casual Shoes
+Male,Cloudy,36,78,Outdoor,Olahraga,8,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Berawan,32,89,Indoor,Kondangan,13,Blazers,Trousers,None,Formal Shoes
+Female,Gerimis,27,68,Outdoor,Berjalan,19,Shirts,Trousers,None,Casual Shoes
+Male,Berawan,26,92,Indoor,Kondangan,1,Blazers,Trousers,None,Formal Shoes
+Female,Sunny,35,72,Indoor,Berjalan,24,Tshirts,Skirts,None,Casual Shoes
+Male,Cloudy,20,60,Indoor,Olahraga,23,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Cloudy,19,100,Outdoor,Santai,20,Shirts,Trousers,Sweatshirts,Sandals
+Male,Cloudy,40,65,Outdoor,Bekerja,17,Shirts,Shorts,None,Casual Shoes
+Female,Gerimis,21,76,Indoor,Berjalan,8,Shirts,Trousers,None,Casual Shoes
+Male,Cloudy,13,78,Outdoor,Bekerja,6,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,32,77,Indoor,Berjalan,20,Shirts,Trousers,None,Casual Shoes
+Female,Rainy,37,93,Outdoor,Bekerja,17,Shirts,Shorts,Jackets,Boots
+Female,Cloudy,33,85,Outdoor,Olahraga,10,Tshirts,Legging,None,Casual Shoes
+Female,Rainy,13,81,Outdoor,Santai,15,Tops,Trousers,Jackets,Boots
+Male,Berawan,17,99,Indoor,Bekerja,16,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Sunny,19,65,Indoor,Olahraga,17,Tshirts,Legging,Sweatshirts,Casual Shoes
+Male,Rainy,10,83,Outdoor,Berjalan,12,Shirts,Trousers,Jackets,Boots
+Female,Gerimis,26,74,Outdoor,Kondangan,21,Tops,Skirts,None,Sepatu Hak
+Male,Gerimis,27,89,Indoor,Berjalan,12,Tshirts,Trousers,None,Casual Shoes
+Female,Sunny,14,65,Outdoor,Berjalan,17,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Female,Cloudy,39,60,Outdoor,Kondangan,13,Tops,Skirts,None,Sepatu Hak
+Male,Cloudy,9,80,Indoor,Olahraga,11,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Female,Rainy,28,77,Outdoor,Berjalan,6,Shirts,Trousers,Jackets,Boots
+Male,Sunny,15,75,Indoor,Bekerja,17,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Cloudy,34,80,Outdoor,Bekerja,8,Shirts,Skirts,None,Casual Shoes
+Male,Cloudy,9,77,Outdoor,Olahraga,16,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Female,Sunny,20,65,Outdoor,Kondangan,14,Tops,Skirts,None,Sepatu Hak
+Male,Berawan,13,93,Outdoor,Berjalan,22,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Gerimis,39,73,Outdoor,Bekerja,16,Shirts,Skirts,None,Casual Shoes
+Female,Cloudy,9,64,Indoor,Santai,6,Tops,Trousers,Sweatshirts,Sandals
+Female,Berawan,16,95,Indoor,Bekerja,15,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Sunny,35,87,Indoor,Bekerja,18,Shirts,Shorts,None,Casual Shoes
+Male,Berawan,38,80,Indoor,Kondangan,15,Blazers,Shorts,None,Formal Shoes
+Female,Cloudy,21,65,Indoor,Santai,15,Tops,Trousers,None,Sandals
+Male,Cloudy,38,88,Outdoor,Santai,18,Tshirts,Shorts,None,Sandals
+Female,Rainy,30,89,Indoor,Santai,24,Tshirts,Trousers,Jackets,Boots
+Female,Rainy,40,84,Indoor,Bekerja,1,Shirts,Skirts,Jackets,Boots
+Male,Berawan,27,100,Indoor,Olahraga,3,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Cloudy,16,82,Indoor,Berjalan,12,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Male,Sunny,35,81,Indoor,Kondangan,15,Blazers,Shorts,None,Formal Shoes
+Male,Sunny,20,76,Outdoor,Santai,2,Tshirts,Trousers,None,Sandals
+Female,Gerimis,10,88,Outdoor,Kondangan,7,Tops,Skirts,Sweatshirts,Sepatu Hak
+Female,Rainy,27,81,Outdoor,Santai,19,Tops,Trousers,Jackets,Boots
+Male,Berawan,13,69,Outdoor,Santai,6,Shirts,Trousers,Sweatshirts,Sandals
+Male,Cloudy,27,79,Outdoor,Santai,23,Shirts,Trousers,None,Sandals
+Female,Berawan,19,94,Outdoor,Olahraga,16,Tshirts,Legging,Sweatshirts,Casual Shoes
+Male,Berawan,12,79,Indoor,Santai,11,Shirts,Trousers,Sweatshirts,Sandals
+Male,Rainy,27,67,Outdoor,Bekerja,1,Shirts,Trousers,Jackets,Boots
+Male,Gerimis,10,63,Indoor,Berjalan,9,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,37,85,Indoor,Berjalan,1,Tshirts,Shorts,Jackets,Boots
+Female,Cloudy,38,75,Indoor,Kondangan,16,Tops,Skirts,None,Sepatu Hak
+Female,Gerimis,38,72,Outdoor,Berjalan,21,Tshirts,Shorts,None,Casual Shoes
+Female,Sunny,16,65,Outdoor,Berjalan,6,Tops,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,37,99,Outdoor,Bekerja,23,Shirts,Shorts,Jackets,Boots
+Male,Sunny,17,76,Indoor,Bekerja,24,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,11,97,Indoor,Kondangan,11,Blazers,Trousers,Jackets,Boots
+Female,Cloudy,35,64,Indoor,Bekerja,14,Shirts,Shorts,None,Casual Shoes
+Male,Cloudy,22,86,Outdoor,Olahraga,5,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Berawan,39,98,Outdoor,Santai,4,Tshirts,Shorts,None,Sandals
+Male,Cloudy,35,99,Outdoor,Santai,3,Tshirts,Shorts,None,Sandals
+Female,Gerimis,9,76,Outdoor,Kondangan,3,Tops,Skirts,Sweatshirts,Sepatu Hak
+Male,Gerimis,33,78,Outdoor,Olahraga,14,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Gerimis,17,71,Indoor,Bekerja,16,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Sunny,27,72,Indoor,Olahraga,21,Tshirts,Legging,None,Casual Shoes
+Male,Berawan,40,62,Outdoor,Olahraga,14,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Cloudy,17,88,Indoor,Olahraga,17,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Male,Rainy,32,60,Indoor,Olahraga,19,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Female,Berawan,28,74,Indoor,Berjalan,16,Tops,Trousers,None,Casual Shoes
+Female,Gerimis,25,88,Indoor,Olahraga,17,Tshirts,Legging,None,Casual Shoes
+Female,Sunny,38,73,Outdoor,Berjalan,7,Tshirts,Skirts,None,Casual Shoes
+Male,Cloudy,8,85,Outdoor,Santai,4,Shirts,Trousers,Sweatshirts,Sandals
+Female,Sunny,26,82,Indoor,Santai,2,Tshirts,Trousers,None,Sandals
+Male,Berawan,17,92,Outdoor,Berjalan,6,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,22,91,Outdoor,Berjalan,12,Shirts,Trousers,None,Casual Shoes
+Male,Sunny,10,100,Outdoor,Bekerja,6,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Rainy,8,77,Outdoor,Bekerja,1,Shirts,Trousers,Jackets,Boots
+Male,Berawan,29,97,Outdoor,Berjalan,24,Tshirts,Trousers,None,Casual Shoes
+Male,Rainy,30,67,Outdoor,Kondangan,7,Blazers,Trousers,Jackets,Boots
+Female,Cloudy,30,83,Outdoor,Bekerja,12,Shirts,Trousers,None,Casual Shoes
+Female,Sunny,12,66,Outdoor,Berjalan,19,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Female,Rainy,23,87,Outdoor,Bekerja,12,Shirts,Trousers,Jackets,Boots
+Male,Berawan,30,75,Indoor,Bekerja,2,Shirts,Trousers,None,Casual Shoes
+Female,Rainy,16,64,Outdoor,Santai,5,Tshirts,Trousers,Jackets,Boots
+Male,Gerimis,16,67,Outdoor,Berjalan,7,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,11,68,Outdoor,Kondangan,2,Blazers,Trousers,Jackets,Boots
+Male,Cloudy,24,66,Indoor,Berjalan,23,Tshirts,Trousers,None,Casual Shoes
+Male,Sunny,36,64,Outdoor,Bekerja,5,Shirts,Shorts,None,Casual Shoes
+Male,Berawan,31,64,Indoor,Berjalan,20,Shirts,Trousers,None,Casual Shoes
+Female,Berawan,26,94,Indoor,Bekerja,20,Shirts,Trousers,None,Casual Shoes
+Male,Cloudy,26,73,Outdoor,Berjalan,22,Tshirts,Trousers,None,Casual Shoes
+Female,Rainy,20,90,Outdoor,Bekerja,13,Shirts,Trousers,Jackets,Boots
+Female,Gerimis,37,92,Outdoor,Berjalan,3,Tshirts,Skirts,None,Casual Shoes
+Female,Rainy,8,77,Indoor,Berjalan,16,Shirts,Trousers,Jackets,Boots
+Female,Berawan,8,78,Outdoor,Santai,19,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Sunny,19,89,Indoor,Berjalan,18,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Cloudy,40,86,Outdoor,Santai,7,Tshirts,Shorts,None,Sandals
+Male,Cloudy,37,95,Outdoor,Bekerja,2,Shirts,Shorts,None,Casual Shoes
+Male,Gerimis,15,69,Indoor,Olahraga,6,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Female,Rainy,34,81,Outdoor,Berjalan,18,Tshirts,Shorts,Jackets,Boots
+Female,Rainy,22,64,Outdoor,Berjalan,15,Tops,Trousers,Jackets,Boots
+Female,Gerimis,39,91,Indoor,Santai,5,Tshirts,Skirts,None,Sandals
+Female,Sunny,26,99,Indoor,Santai,15,Tops,Trousers,None,Sandals
+Female,Rainy,14,77,Indoor,Santai,14,Tops,Trousers,Jackets,Boots
+Male,Rainy,18,85,Indoor,Olahraga,3,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Female,Berawan,24,63,Outdoor,Santai,12,Shirts,Trousers,None,Sandals
+Female,Gerimis,22,99,Indoor,Kondangan,18,Tops,Skirts,None,Sepatu Hak
+Female,Berawan,13,92,Indoor,Olahraga,9,Tshirts,Legging,Sweatshirts,Casual Shoes
+Female,Cloudy,35,79,Indoor,Santai,15,Tshirts,Shorts,None,Sandals
+Female,Berawan,16,73,Indoor,Kondangan,7,Tops,Skirts,Sweatshirts,Sepatu Hak
+Female,Sunny,32,75,Outdoor,Berjalan,2,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,8,88,Indoor,Kondangan,4,Blazers,Trousers,Sweatshirts,Formal Shoes
+Female,Sunny,34,99,Outdoor,Santai,9,Tshirts,Skirts,None,Sandals
+Male,Gerimis,39,64,Outdoor,Bekerja,8,Shirts,Shorts,None,Casual Shoes
+Male,Berawan,38,77,Outdoor,Olahraga,9,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Berawan,17,87,Indoor,Bekerja,14,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,30,77,Outdoor,Bekerja,21,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,24,89,Outdoor,Santai,11,Shirts,Trousers,None,Sandals
+Female,Cloudy,24,89,Outdoor,Kondangan,15,Tops,Skirts,None,Sepatu Hak
+Male,Rainy,17,99,Outdoor,Kondangan,10,Blazers,Trousers,Jackets,Boots
+Male,Berawan,14,92,Outdoor,Kondangan,4,Blazers,Trousers,Sweatshirts,Formal Shoes
+Male,Cloudy,40,61,Outdoor,Berjalan,10,Tshirts,Shorts,None,Casual Shoes
+Male,Berawan,33,84,Outdoor,Olahraga,16,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Berawan,23,61,Outdoor,Olahraga,24,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Gerimis,28,72,Outdoor,Bekerja,12,Shirts,Trousers,None,Casual Shoes
+Female,Gerimis,34,69,Outdoor,Kondangan,15,Tops,Skirts,None,Sepatu Hak
+Female,Sunny,14,79,Outdoor,Olahraga,19,Tshirts,Legging,Sweatshirts,Casual Shoes
+Female,Rainy,10,89,Indoor,Olahraga,21,Tshirts,Legging,Jackets,Casual Shoes
+Female,Sunny,16,90,Indoor,Kondangan,6,Tops,Skirts,Sweatshirts,Sepatu Hak
+Female,Sunny,10,68,Indoor,Olahraga,17,Tshirts,Legging,Sweatshirts,Casual Shoes
+Female,Berawan,17,88,Indoor,Santai,12,Shirts,Trousers,Sweatshirts,Sandals
+Male,Gerimis,22,80,Indoor,Bekerja,4,Shirts,Trousers,None,Casual Shoes
+Male,Rainy,12,73,Indoor,Berjalan,19,Shirts,Trousers,Jackets,Boots
+Female,Cloudy,14,76,Indoor,Bekerja,21,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,16,73,Indoor,Santai,21,Tshirts,Trousers,Sweatshirts,Sandals
+Female,Cloudy,19,97,Outdoor,Berjalan,8,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Rainy,20,77,Indoor,Berjalan,7,Tshirts,Trousers,Jackets,Boots
+Female,Cloudy,23,84,Outdoor,Kondangan,12,Tops,Skirts,None,Sepatu Hak
+Female,Sunny,11,75,Outdoor,Bekerja,19,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Gerimis,14,83,Indoor,Olahraga,6,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Male,Gerimis,10,91,Indoor,Kondangan,21,Blazers,Trousers,Sweatshirts,Formal Shoes
+Male,Cloudy,27,64,Indoor,Bekerja,15,Shirts,Trousers,None,Casual Shoes
+Female,Berawan,12,85,Indoor,Bekerja,5,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Gerimis,28,72,Outdoor,Kondangan,18,Tops,Skirts,None,Sepatu Hak
+Male,Rainy,28,76,Indoor,Olahraga,8,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Male,Cloudy,23,76,Indoor,Olahraga,2,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Cloudy,32,83,Outdoor,Olahraga,4,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Rainy,25,95,Indoor,Santai,20,Tops,Trousers,Jackets,Boots
+Female,Berawan,29,89,Outdoor,Santai,7,Tshirts,Trousers,None,Sandals
+Female,Sunny,33,79,Indoor,Olahraga,16,Tshirts,Legging,None,Casual Shoes
+Male,Berawan,38,90,Indoor,Olahraga,5,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Cloudy,17,82,Indoor,Berjalan,18,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Gerimis,33,72,Indoor,Kondangan,9,Blazers,Shorts,None,Formal Shoes
+Female,Sunny,20,65,Indoor,Berjalan,10,Shirts,Trousers,None,Casual Shoes
+Female,Rainy,38,91,Outdoor,Santai,3,Tshirts,Shorts,Jackets,Boots
+Female,Gerimis,15,73,Outdoor,Berjalan,13,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Gerimis,18,90,Outdoor,Bekerja,2,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,39,89,Outdoor,Santai,3,Tshirts,Shorts,None,Sandals
+Male,Rainy,21,92,Outdoor,Bekerja,11,Shirts,Trousers,Jackets,Boots
+Female,Berawan,22,86,Indoor,Berjalan,13,Tshirts,Trousers,None,Casual Shoes
+Female,Berawan,25,98,Indoor,Berjalan,9,Shirts,Trousers,None,Casual Shoes
+Female,Berawan,25,76,Indoor,Santai,22,Tshirts,Trousers,None,Sandals
+Female,Cloudy,40,73,Indoor,Bekerja,24,Shirts,Skirts,None,Casual Shoes
+Male,Rainy,26,75,Outdoor,Kondangan,8,Blazers,Trousers,Jackets,Boots
+Female,Gerimis,39,67,Indoor,Olahraga,6,Tshirts,Legging,None,Casual Shoes
+Male,Sunny,11,93,Outdoor,Berjalan,12,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Cloudy,30,81,Indoor,Berjalan,19,Shirts,Trousers,None,Casual Shoes
+Male,Sunny,32,83,Indoor,Bekerja,7,Shirts,Trousers,None,Casual Shoes
+Female,Cloudy,22,76,Outdoor,Olahraga,8,Tshirts,Legging,None,Casual Shoes
+Female,Berawan,35,86,Outdoor,Santai,17,Tshirts,Skirts,None,Sandals
+Male,Cloudy,22,95,Outdoor,Olahraga,5,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Sunny,39,68,Indoor,Santai,4,Tshirts,Shorts,None,Sandals
+Male,Rainy,39,81,Outdoor,Kondangan,15,Blazers,Shorts,Jackets,Boots
+Female,Berawan,22,73,Outdoor,Kondangan,6,Tops,Skirts,None,Sepatu Hak
+Female,Gerimis,9,90,Outdoor,Berjalan,20,Tops,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,33,67,Indoor,Bekerja,4,Shirts,Shorts,None,Casual Shoes
+Male,Cloudy,11,99,Indoor,Bekerja,1,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,11,76,Outdoor,Berjalan,7,Tshirts,Trousers,Jackets,Boots
+Female,Cloudy,12,95,Indoor,Berjalan,5,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,19,60,Outdoor,Santai,2,Shirts,Trousers,Jackets,Boots
+Female,Gerimis,33,91,Indoor,Kondangan,15,Tops,Skirts,None,Sepatu Hak
+Male,Gerimis,22,99,Outdoor,Olahraga,9,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Cloudy,10,77,Indoor,Kondangan,9,Tops,Skirts,Sweatshirts,Sepatu Hak
+Female,Rainy,29,94,Outdoor,Olahraga,16,Tshirts,Legging,Jackets,Casual Shoes
+Female,Cloudy,17,80,Outdoor,Berjalan,14,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,10,78,Indoor,Berjalan,13,Shirts,Trousers,Jackets,Boots
+Female,Rainy,21,93,Outdoor,Santai,17,Tshirts,Trousers,Jackets,Boots
+Male,Gerimis,28,78,Indoor,Berjalan,20,Shirts,Trousers,None,Casual Shoes
+Female,Berawan,24,96,Outdoor,Olahraga,9,Tshirts,Legging,None,Casual Shoes
+Male,Gerimis,20,94,Indoor,Bekerja,19,Shirts,Trousers,None,Casual Shoes
+Female,Berawan,24,97,Indoor,Bekerja,4,Shirts,Trousers,None,Casual Shoes
+Female,Cloudy,22,95,Indoor,Santai,20,Tops,Trousers,None,Sandals
+Female,Cloudy,38,70,Outdoor,Berjalan,16,Tshirts,Skirts,None,Casual Shoes
+Female,Berawan,15,65,Outdoor,Olahraga,19,Tshirts,Legging,Sweatshirts,Casual Shoes
+Male,Rainy,12,96,Outdoor,Bekerja,23,Shirts,Trousers,Jackets,Boots
+Female,Gerimis,40,73,Outdoor,Kondangan,9,Tops,Skirts,None,Sepatu Hak
+Male,Cloudy,38,91,Outdoor,Berjalan,14,Tshirts,Shorts,None,Casual Shoes
+Female,Rainy,12,61,Indoor,Berjalan,23,Shirts,Trousers,Jackets,Boots
+Female,Cloudy,21,91,Indoor,Bekerja,19,Shirts,Trousers,None,Casual Shoes
+Male,Rainy,12,98,Indoor,Bekerja,9,Shirts,Trousers,Jackets,Boots
+Male,Berawan,19,60,Outdoor,Olahraga,6,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Male,Rainy,14,69,Indoor,Santai,16,Shirts,Trousers,Jackets,Boots
+Male,Rainy,32,84,Outdoor,Olahraga,16,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Female,Berawan,35,75,Outdoor,Bekerja,17,Shirts,Skirts,None,Casual Shoes
+Female,Rainy,21,63,Indoor,Bekerja,6,Shirts,Trousers,Jackets,Boots
+Male,Rainy,13,71,Outdoor,Olahraga,15,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Male,Sunny,39,80,Outdoor,Santai,11,Tshirts,Shorts,None,Sandals
+Male,Gerimis,24,62,Outdoor,Olahraga,1,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Gerimis,15,68,Outdoor,Olahraga,7,Tshirts,Legging,Sweatshirts,Casual Shoes
+Male,Gerimis,11,94,Indoor,Bekerja,14,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Cloudy,40,92,Indoor,Santai,3,Tshirts,Skirts,None,Sandals
+Male,Berawan,40,74,Indoor,Olahraga,16,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Sunny,25,91,Outdoor,Olahraga,9,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Rainy,21,79,Outdoor,Berjalan,23,Shirts,Trousers,Jackets,Boots
+Male,Rainy,35,96,Indoor,Santai,17,Tshirts,Shorts,Jackets,Boots
+Male,Sunny,36,68,Outdoor,Bekerja,17,Shirts,Shorts,None,Casual Shoes
+Male,Sunny,40,94,Indoor,Berjalan,23,Tshirts,Shorts,None,Casual Shoes
+Male,Berawan,27,84,Outdoor,Berjalan,4,Shirts,Trousers,None,Casual Shoes
+Male,Rainy,22,94,Indoor,Santai,19,Tshirts,Trousers,Jackets,Boots
+Female,Rainy,20,62,Indoor,Kondangan,1,Tops,Skirts,Jackets,Boots
+Male,Rainy,38,71,Outdoor,Santai,18,Tshirts,Shorts,Jackets,Boots
+Female,Gerimis,18,61,Outdoor,Kondangan,14,Tops,Skirts,Sweatshirts,Sepatu Hak
+Male,Rainy,38,87,Outdoor,Olahraga,11,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Male,Gerimis,13,65,Outdoor,Bekerja,6,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,22,68,Indoor,Olahraga,2,Tshirts,Legging,None,Casual Shoes
+Male,Sunny,15,79,Outdoor,Berjalan,22,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Male,Sunny,36,90,Outdoor,Bekerja,13,Shirts,Shorts,None,Casual Shoes
+Female,Berawan,28,98,Outdoor,Berjalan,20,Tshirts,Trousers,None,Casual Shoes
+Female,Sunny,21,91,Indoor,Bekerja,16,Shirts,Trousers,None,Casual Shoes
+Female,Sunny,16,78,Indoor,Bekerja,4,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Gerimis,38,77,Outdoor,Bekerja,6,Shirts,Shorts,None,Casual Shoes
+Female,Cloudy,34,99,Indoor,Olahraga,24,Tshirts,Legging,None,Casual Shoes
+Female,Gerimis,9,62,Outdoor,Kondangan,10,Tops,Skirts,Sweatshirts,Sepatu Hak
+Male,Gerimis,21,67,Indoor,Santai,3,Shirts,Trousers,None,Sandals
+Male,Gerimis,25,76,Outdoor,Berjalan,1,Shirts,Trousers,None,Casual Shoes
+Female,Cloudy,26,90,Outdoor,Berjalan,2,Tops,Trousers,None,Casual Shoes
+Male,Berawan,23,68,Indoor,Bekerja,15,Shirts,Trousers,None,Casual Shoes
+Female,Gerimis,17,75,Indoor,Bekerja,18,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,36,94,Indoor,Bekerja,4,Shirts,Shorts,None,Casual Shoes
+Female,Cloudy,22,88,Indoor,Olahraga,21,Tshirts,Legging,None,Casual Shoes
+Female,Gerimis,14,68,Outdoor,Bekerja,21,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Sunny,17,82,Indoor,Bekerja,23,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,29,91,Outdoor,Bekerja,5,Shirts,Trousers,Jackets,Boots
+Female,Cloudy,22,73,Indoor,Santai,24,Shirts,Trousers,None,Sandals
+Female,Berawan,36,95,Indoor,Olahraga,11,Tshirts,Legging,None,Casual Shoes
+Male,Rainy,13,74,Outdoor,Olahraga,6,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Male,Rainy,16,83,Outdoor,Santai,18,Tshirts,Trousers,Jackets,Boots
+Female,Gerimis,31,67,Outdoor,Berjalan,21,Tshirts,Trousers,None,Casual Shoes
+Male,Gerimis,11,62,Outdoor,Olahraga,5,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Male,Rainy,23,87,Outdoor,Olahraga,12,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Female,Rainy,24,62,Outdoor,Kondangan,4,Tops,Skirts,Jackets,Boots
+Male,Cloudy,20,65,Indoor,Berjalan,2,Tshirts,Trousers,None,Casual Shoes
+Female,Cloudy,25,99,Indoor,Olahraga,14,Tshirts,Legging,None,Casual Shoes
+Male,Sunny,20,98,Outdoor,Bekerja,22,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,40,65,Indoor,Santai,20,Tshirts,Shorts,None,Sandals
+Female,Cloudy,32,65,Indoor,Santai,13,Shirts,Trousers,None,Sandals
+Male,Sunny,21,91,Indoor,Olahraga,5,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Gerimis,20,83,Outdoor,Olahraga,8,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Sunny,15,98,Indoor,Olahraga,1,Tshirts,Legging,Sweatshirts,Casual Shoes
+Female,Cloudy,10,85,Outdoor,Santai,15,Tops,Trousers,Sweatshirts,Sandals
+Male,Gerimis,22,78,Indoor,Santai,16,Tshirts,Trousers,None,Sandals
+Female,Berawan,14,77,Outdoor,Berjalan,3,Tops,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,39,61,Indoor,Bekerja,12,Shirts,Shorts,Jackets,Boots
+Female,Berawan,8,93,Indoor,Berjalan,1,Tops,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,40,86,Indoor,Kondangan,11,Blazers,Shorts,None,Formal Shoes
+Male,Gerimis,23,63,Outdoor,Kondangan,19,Blazers,Trousers,None,Formal Shoes
+Male,Sunny,15,76,Indoor,Santai,3,Shirts,Trousers,Sweatshirts,Sandals
+Male,Berawan,26,68,Indoor,Santai,13,Shirts,Trousers,None,Sandals
+Female,Gerimis,38,63,Outdoor,Bekerja,24,Shirts,Shorts,None,Casual Shoes
+Male,Rainy,13,85,Indoor,Kondangan,10,Blazers,Trousers,Jackets,Boots
+Female,Cloudy,32,71,Indoor,Berjalan,3,Tops,Trousers,None,Casual Shoes
+Female,Berawan,38,92,Outdoor,Olahraga,7,Tshirts,Legging,None,Casual Shoes
+Female,Cloudy,8,62,Indoor,Berjalan,2,Tops,Trousers,Sweatshirts,Casual Shoes
+Female,Rainy,10,74,Indoor,Santai,13,Shirts,Trousers,Jackets,Boots
+Male,Sunny,36,87,Outdoor,Kondangan,13,Blazers,Shorts,None,Formal Shoes
+Male,Cloudy,32,64,Indoor,Olahraga,1,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Gerimis,17,66,Indoor,Bekerja,20,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Cloudy,10,73,Indoor,Berjalan,21,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Gerimis,32,80,Outdoor,Bekerja,17,Shirts,Trousers,None,Casual Shoes
+Male,Berawan,29,78,Outdoor,Berjalan,6,Shirts,Trousers,None,Casual Shoes
+Male,Rainy,15,79,Outdoor,Berjalan,22,Shirts,Trousers,Jackets,Boots
+Female,Berawan,27,96,Indoor,Kondangan,23,Tops,Skirts,None,Sepatu Hak
+Female,Berawan,32,81,Indoor,Bekerja,23,Shirts,Trousers,None,Casual Shoes
+Female,Sunny,26,100,Outdoor,Bekerja,11,Shirts,Trousers,None,Casual Shoes
+Male,Berawan,15,65,Indoor,Bekerja,4,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,16,77,Outdoor,Kondangan,9,Tops,Skirts,Sweatshirts,Sepatu Hak
+Male,Rainy,32,77,Indoor,Bekerja,18,Shirts,Trousers,Jackets,Boots
+Female,Cloudy,17,82,Outdoor,Olahraga,8,Tshirts,Legging,Sweatshirts,Casual Shoes
+Female,Rainy,26,95,Outdoor,Kondangan,18,Tops,Skirts,Jackets,Boots
+Female,Gerimis,21,90,Outdoor,Olahraga,24,Tshirts,Legging,None,Casual Shoes
+Male,Sunny,30,95,Indoor,Kondangan,10,Blazers,Trousers,None,Formal Shoes
+Female,Gerimis,10,74,Outdoor,Kondangan,4,Tops,Skirts,Sweatshirts,Sepatu Hak
+Male,Rainy,21,93,Outdoor,Santai,10,Tshirts,Trousers,Jackets,Boots
+Female,Cloudy,35,68,Outdoor,Berjalan,3,Tshirts,Shorts,None,Casual Shoes
+Female,Cloudy,10,62,Indoor,Santai,9,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Sunny,20,85,Indoor,Berjalan,2,Shirts,Trousers,None,Casual Shoes
+Female,Berawan,17,64,Outdoor,Kondangan,20,Tops,Skirts,Sweatshirts,Sepatu Hak
+Male,Berawan,39,83,Outdoor,Kondangan,19,Blazers,Shorts,None,Formal Shoes
+Male,Gerimis,13,63,Outdoor,Santai,18,Shirts,Trousers,Sweatshirts,Sandals
+Female,Gerimis,38,85,Outdoor,Santai,18,Tshirts,Shorts,None,Sandals
+Male,Gerimis,8,99,Indoor,Berjalan,19,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Female,Sunny,17,73,Indoor,Bekerja,5,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,24,72,Outdoor,Olahraga,21,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Berawan,9,97,Outdoor,Berjalan,16,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Female,Sunny,9,77,Outdoor,Santai,18,Shirts,Trousers,Sweatshirts,Sandals
+Female,Cloudy,37,100,Indoor,Berjalan,18,Tshirts,Shorts,None,Casual Shoes
+Female,Berawan,23,79,Outdoor,Olahraga,1,Tshirts,Legging,None,Casual Shoes
+Male,Berawan,8,99,Indoor,Santai,6,Shirts,Trousers,Sweatshirts,Sandals
+Male,Sunny,30,91,Indoor,Berjalan,11,Tshirts,Trousers,None,Casual Shoes
+Male,Cloudy,12,87,Outdoor,Berjalan,11,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Male,Cloudy,22,92,Outdoor,Santai,12,Tshirts,Trousers,None,Sandals
+Male,Sunny,14,94,Outdoor,Olahraga,8,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Male,Cloudy,38,62,Outdoor,Santai,10,Tshirts,Shorts,None,Sandals
+Male,Cloudy,38,80,Outdoor,Berjalan,3,Tshirts,Shorts,None,Casual Shoes
+Male,Berawan,8,87,Outdoor,Bekerja,17,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Gerimis,15,91,Indoor,Santai,11,Tops,Trousers,Sweatshirts,Sandals
+Male,Gerimis,22,74,Indoor,Olahraga,1,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Gerimis,35,78,Outdoor,Olahraga,13,Tshirts,Legging,None,Casual Shoes
+Male,Gerimis,34,64,Outdoor,Santai,14,Tshirts,Shorts,None,Sandals
+Male,Berawan,39,76,Outdoor,Olahraga,10,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Gerimis,37,84,Outdoor,Olahraga,16,Tshirts,Legging,None,Casual Shoes
+Male,Cloudy,34,84,Indoor,Olahraga,19,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Berawan,18,79,Indoor,Berjalan,3,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Male,Gerimis,39,60,Outdoor,Berjalan,14,Tshirts,Shorts,None,Casual Shoes
+Female,Gerimis,30,79,Outdoor,Santai,19,Shirts,Trousers,None,Sandals
+Female,Berawan,37,67,Outdoor,Olahraga,23,Tshirts,Legging,None,Casual Shoes
+Female,Cloudy,19,71,Indoor,Olahraga,5,Tshirts,Legging,Sweatshirts,Casual Shoes
+Male,Sunny,24,83,Indoor,Bekerja,23,Shirts,Trousers,None,Casual Shoes
+Female,Rainy,17,94,Indoor,Bekerja,15,Shirts,Trousers,Jackets,Boots
+Male,Gerimis,16,64,Indoor,Berjalan,15,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,15,96,Indoor,Bekerja,15,Shirts,Trousers,Jackets,Boots
+Female,Rainy,18,66,Outdoor,Santai,17,Tshirts,Trousers,Jackets,Boots
+Male,Berawan,14,84,Indoor,Bekerja,19,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Cloudy,34,65,Indoor,Berjalan,12,Tshirts,Skirts,None,Casual Shoes
+Male,Sunny,15,67,Indoor,Olahraga,21,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Female,Cloudy,24,93,Indoor,Santai,9,Tshirts,Trousers,None,Sandals
+Male,Rainy,30,88,Indoor,Kondangan,21,Blazers,Trousers,Jackets,Boots
+Female,Gerimis,32,96,Outdoor,Olahraga,9,Tshirts,Legging,None,Casual Shoes
+Female,Rainy,16,60,Outdoor,Berjalan,18,Tops,Trousers,Jackets,Boots
+Female,Berawan,32,92,Outdoor,Santai,6,Tops,Trousers,None,Sandals
+Female,Gerimis,18,99,Outdoor,Kondangan,8,Tops,Skirts,Sweatshirts,Sepatu Hak
+Female,Berawan,33,89,Outdoor,Berjalan,2,Tshirts,Shorts,None,Casual Shoes
+Male,Gerimis,32,98,Indoor,Santai,18,Shirts,Trousers,None,Sandals
+Female,Sunny,27,93,Indoor,Kondangan,17,Tops,Skirts,None,Sepatu Hak
+Female,Gerimis,32,60,Indoor,Berjalan,15,Tshirts,Trousers,None,Casual Shoes
+Male,Cloudy,30,99,Outdoor,Bekerja,14,Shirts,Trousers,None,Casual Shoes
+Female,Berawan,20,70,Outdoor,Bekerja,13,Shirts,Trousers,None,Casual Shoes
+Male,Rainy,27,80,Outdoor,Olahraga,7,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Male,Sunny,31,72,Indoor,Santai,15,Shirts,Trousers,None,Sandals
+Female,Sunny,34,79,Indoor,Santai,19,Tshirts,Shorts,None,Sandals
+Male,Gerimis,14,77,Indoor,Olahraga,23,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Female,Cloudy,29,99,Indoor,Berjalan,19,Tops,Trousers,None,Casual Shoes
+Male,Rainy,33,78,Indoor,Berjalan,24,Tshirts,Shorts,Jackets,Boots
+Male,Gerimis,34,82,Outdoor,Olahraga,13,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Berawan,10,64,Indoor,Berjalan,16,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Male,Sunny,39,74,Outdoor,Bekerja,14,Shirts,Shorts,None,Casual Shoes
+Female,Rainy,15,98,Outdoor,Olahraga,11,Tshirts,Legging,Jackets,Casual Shoes
+Female,Rainy,35,68,Outdoor,Olahraga,1,Tshirts,Legging,Jackets,Casual Shoes
+Female,Rainy,10,65,Outdoor,Berjalan,17,Tshirts,Trousers,Jackets,Boots
+Female,Cloudy,29,78,Indoor,Santai,6,Shirts,Trousers,None,Sandals
+Male,Cloudy,34,78,Indoor,Santai,22,Tshirts,Shorts,None,Sandals
+Male,Gerimis,32,67,Outdoor,Bekerja,20,Shirts,Trousers,None,Casual Shoes
+Female,Gerimis,39,88,Indoor,Kondangan,2,Tops,Skirts,None,Sepatu Hak
+Female,Rainy,21,93,Outdoor,Berjalan,11,Shirts,Trousers,Jackets,Boots
+Male,Sunny,32,65,Outdoor,Bekerja,11,Shirts,Trousers,None,Casual Shoes
+Female,Cloudy,30,60,Indoor,Berjalan,13,Shirts,Trousers,None,Casual Shoes
+Male,Sunny,29,79,Indoor,Olahraga,16,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Berawan,14,97,Outdoor,Kondangan,14,Tops,Skirts,Sweatshirts,Sepatu Hak
+Male,Berawan,17,69,Indoor,Kondangan,3,Blazers,Trousers,Sweatshirts,Formal Shoes
+Male,Rainy,13,91,Indoor,Olahraga,16,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Male,Rainy,16,96,Indoor,Berjalan,18,Shirts,Trousers,Jackets,Boots
+Male,Gerimis,14,79,Indoor,Berjalan,12,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Cloudy,22,76,Outdoor,Berjalan,8,Shirts,Trousers,None,Casual Shoes
+Female,Gerimis,29,60,Indoor,Bekerja,14,Shirts,Trousers,None,Casual Shoes
+Male,Berawan,9,89,Outdoor,Berjalan,16,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Sunny,31,61,Outdoor,Santai,1,Shirts,Trousers,None,Sandals
+Male,Gerimis,23,94,Outdoor,Berjalan,23,Tshirts,Trousers,None,Casual Shoes
+Female,Gerimis,19,79,Indoor,Berjalan,7,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,30,100,Indoor,Santai,12,Tshirts,Trousers,Jackets,Boots
+Female,Cloudy,23,96,Indoor,Kondangan,11,Tops,Skirts,None,Sepatu Hak
+Male,Cloudy,17,72,Outdoor,Olahraga,19,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Male,Cloudy,17,93,Indoor,Kondangan,16,Blazers,Trousers,Sweatshirts,Formal Shoes
+Female,Sunny,22,60,Outdoor,Berjalan,12,Shirts,Trousers,None,Casual Shoes
+Female,Sunny,9,93,Indoor,Kondangan,9,Tops,Skirts,Sweatshirts,Sepatu Hak
+Female,Berawan,12,69,Indoor,Bekerja,12,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,31,92,Indoor,Bekerja,17,Shirts,Trousers,Jackets,Boots
+Female,Berawan,27,75,Outdoor,Olahraga,21,Tshirts,Legging,None,Casual Shoes
+Male,Cloudy,24,91,Indoor,Bekerja,1,Shirts,Trousers,None,Casual Shoes
+Female,Berawan,38,100,Outdoor,Olahraga,14,Tshirts,Legging,None,Casual Shoes
+Male,Gerimis,24,67,Indoor,Kondangan,23,Blazers,Trousers,None,Formal Shoes
+Female,Cloudy,31,76,Outdoor,Berjalan,2,Shirts,Trousers,None,Casual Shoes
+Male,Cloudy,40,60,Outdoor,Olahraga,2,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Berawan,12,89,Outdoor,Kondangan,24,Blazers,Trousers,Sweatshirts,Formal Shoes
+Male,Rainy,22,98,Indoor,Olahraga,24,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Male,Rainy,29,93,Outdoor,Berjalan,9,Tshirts,Trousers,Jackets,Boots
+Female,Cloudy,28,90,Outdoor,Santai,3,Tshirts,Trousers,None,Sandals
+Female,Cloudy,13,99,Indoor,Santai,11,Tops,Trousers,Sweatshirts,Sandals
+Female,Gerimis,36,81,Outdoor,Santai,21,Tshirts,Skirts,None,Sandals
+Male,Rainy,35,70,Outdoor,Bekerja,8,Shirts,Shorts,Jackets,Boots
+Male,Cloudy,28,80,Indoor,Olahraga,17,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Sunny,39,80,Indoor,Berjalan,1,Tshirts,Shorts,None,Casual Shoes
+Female,Berawan,14,95,Outdoor,Olahraga,17,Tshirts,Legging,Sweatshirts,Casual Shoes
+Male,Sunny,40,67,Outdoor,Olahraga,12,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Rainy,12,80,Outdoor,Santai,16,Tops,Trousers,Jackets,Boots
+Male,Gerimis,27,71,Outdoor,Santai,23,Shirts,Trousers,None,Sandals
+Female,Sunny,8,80,Outdoor,Kondangan,18,Tops,Skirts,Sweatshirts,Sepatu Hak
+Female,Berawan,19,71,Indoor,Bekerja,12,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,31,93,Outdoor,Santai,14,Tshirts,Trousers,None,Sandals
+Female,Cloudy,15,73,Indoor,Santai,2,Tops,Trousers,Sweatshirts,Sandals
+Female,Berawan,21,88,Outdoor,Bekerja,15,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,24,100,Outdoor,Santai,19,Tshirts,Trousers,None,Sandals
+Female,Gerimis,28,67,Outdoor,Kondangan,10,Tops,Skirts,None,Sepatu Hak
+Male,Cloudy,21,74,Outdoor,Santai,14,Tshirts,Trousers,None,Sandals
+Male,Berawan,25,100,Indoor,Kondangan,21,Blazers,Trousers,None,Formal Shoes
+Female,Rainy,20,71,Indoor,Santai,24,Tops,Trousers,Jackets,Boots
+Female,Berawan,35,62,Indoor,Berjalan,20,Tshirts,Skirts,None,Casual Shoes
+Female,Sunny,11,62,Outdoor,Santai,6,Shirts,Trousers,Sweatshirts,Sandals
+Female,Gerimis,15,78,Indoor,Kondangan,24,Tops,Skirts,Sweatshirts,Sepatu Hak
+Male,Gerimis,17,96,Outdoor,Bekerja,15,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,23,92,Indoor,Berjalan,15,Tshirts,Trousers,None,Casual Shoes
+Male,Sunny,15,68,Indoor,Olahraga,1,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Male,Cloudy,30,69,Indoor,Bekerja,15,Shirts,Trousers,None,Casual Shoes
+Male,Sunny,25,80,Outdoor,Berjalan,13,Tshirts,Trousers,None,Casual Shoes
+Male,Gerimis,31,94,Indoor,Kondangan,1,Blazers,Trousers,None,Formal Shoes
+Female,Berawan,16,86,Outdoor,Berjalan,12,Tops,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,13,77,Indoor,Bekerja,6,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Cloudy,12,78,Outdoor,Olahraga,10,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Female,Rainy,30,68,Outdoor,Bekerja,18,Shirts,Trousers,Jackets,Boots
+Male,Sunny,16,81,Indoor,Bekerja,7,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Cloudy,22,93,Outdoor,Kondangan,9,Blazers,Trousers,None,Formal Shoes
+Male,Cloudy,9,84,Indoor,Santai,21,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Sunny,38,70,Indoor,Olahraga,11,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Sunny,16,67,Outdoor,Santai,10,Shirts,Trousers,Sweatshirts,Sandals
+Female,Berawan,13,68,Indoor,Berjalan,24,Tops,Trousers,Sweatshirts,Casual Shoes
+Male,Cloudy,14,90,Outdoor,Bekerja,23,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Cloudy,32,73,Outdoor,Berjalan,7,Tshirts,Trousers,None,Casual Shoes
+Male,Berawan,40,71,Indoor,Kondangan,24,Blazers,Shorts,None,Formal Shoes
+Male,Rainy,31,61,Indoor,Berjalan,4,Shirts,Trousers,Jackets,Boots
+Female,Berawan,28,62,Indoor,Kondangan,13,Tops,Skirts,None,Sepatu Hak
+Male,Sunny,10,93,Outdoor,Olahraga,5,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Male,Sunny,39,96,Outdoor,Bekerja,17,Shirts,Shorts,None,Casual Shoes
+Female,Rainy,35,82,Indoor,Berjalan,20,Tshirts,Skirts,Jackets,Boots
+Male,Gerimis,38,99,Indoor,Olahraga,15,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Sunny,8,73,Indoor,Olahraga,6,Tshirts,Legging,Sweatshirts,Casual Shoes
+Female,Sunny,29,85,Indoor,Olahraga,10,Tshirts,Legging,None,Casual Shoes
+Male,Berawan,27,72,Outdoor,Kondangan,6,Blazers,Trousers,None,Formal Shoes
+Male,Cloudy,15,85,Indoor,Bekerja,6,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Sunny,19,79,Outdoor,Berjalan,14,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,18,66,Outdoor,Berjalan,22,Shirts,Trousers,Jackets,Boots
+Female,Gerimis,26,84,Indoor,Olahraga,21,Tshirts,Legging,None,Casual Shoes
+Male,Sunny,14,61,Outdoor,Kondangan,10,Blazers,Trousers,Sweatshirts,Formal Shoes
+Male,Berawan,21,62,Indoor,Santai,13,Tshirts,Trousers,None,Sandals
+Male,Gerimis,23,65,Indoor,Bekerja,18,Shirts,Trousers,None,Casual Shoes
+Male,Berawan,9,83,Outdoor,Santai,4,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Berawan,25,81,Outdoor,Olahraga,5,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Rainy,26,82,Indoor,Kondangan,1,Tops,Skirts,Jackets,Boots
+Male,Sunny,37,65,Indoor,Bekerja,14,Shirts,Shorts,None,Casual Shoes
+Male,Sunny,29,61,Outdoor,Olahraga,5,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Berawan,14,77,Outdoor,Santai,5,Tops,Trousers,Sweatshirts,Sandals
+Female,Sunny,8,62,Indoor,Kondangan,16,Tops,Skirts,Sweatshirts,Sepatu Hak
+Male,Gerimis,14,74,Indoor,Santai,2,Tshirts,Trousers,Sweatshirts,Sandals
+Female,Rainy,24,95,Indoor,Berjalan,23,Tops,Trousers,Jackets,Boots
+Male,Gerimis,8,66,Indoor,Berjalan,6,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Gerimis,34,74,Outdoor,Olahraga,13,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Gerimis,23,81,Indoor,Olahraga,10,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Gerimis,22,93,Indoor,Kondangan,7,Blazers,Trousers,None,Formal Shoes
+Female,Rainy,15,79,Outdoor,Santai,5,Tops,Trousers,Jackets,Boots
+Female,Sunny,25,91,Outdoor,Berjalan,1,Tops,Trousers,None,Casual Shoes
+Male,Rainy,22,74,Indoor,Berjalan,23,Tshirts,Trousers,Jackets,Boots
+Male,Gerimis,26,96,Indoor,Kondangan,13,Blazers,Trousers,None,Formal Shoes
+Male,Berawan,34,100,Outdoor,Olahraga,17,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Cloudy,29,96,Outdoor,Kondangan,24,Blazers,Trousers,None,Formal Shoes
+Male,Berawan,29,63,Indoor,Bekerja,23,Shirts,Trousers,None,Casual Shoes
+Female,Gerimis,31,86,Outdoor,Kondangan,4,Tops,Skirts,None,Sepatu Hak
+Female,Rainy,27,76,Indoor,Berjalan,12,Tshirts,Trousers,Jackets,Boots
+Female,Gerimis,22,78,Outdoor,Santai,23,Tshirts,Trousers,None,Sandals
+Female,Rainy,29,98,Indoor,Berjalan,7,Tops,Trousers,Jackets,Boots
+Female,Gerimis,30,68,Indoor,Kondangan,6,Tops,Skirts,None,Sepatu Hak
+Male,Cloudy,25,90,Outdoor,Berjalan,2,Shirts,Trousers,None,Casual Shoes
+Female,Gerimis,26,73,Outdoor,Santai,20,Shirts,Trousers,None,Sandals
+Female,Berawan,22,78,Outdoor,Olahraga,23,Tshirts,Legging,None,Casual Shoes
+Female,Berawan,24,83,Outdoor,Santai,14,Tshirts,Trousers,None,Sandals
+Male,Cloudy,33,97,Indoor,Santai,13,Tshirts,Shorts,None,Sandals
+Female,Berawan,12,61,Outdoor,Santai,19,Shirts,Trousers,Sweatshirts,Sandals
+Male,Gerimis,29,97,Outdoor,Bekerja,3,Shirts,Trousers,None,Casual Shoes
+Female,Cloudy,32,89,Indoor,Bekerja,3,Shirts,Trousers,None,Casual Shoes
+Male,Rainy,11,66,Outdoor,Santai,24,Shirts,Trousers,Jackets,Boots
+Male,Cloudy,24,77,Indoor,Kondangan,14,Blazers,Trousers,None,Formal Shoes
+Female,Berawan,13,67,Outdoor,Olahraga,15,Tshirts,Legging,Sweatshirts,Casual Shoes
+Female,Cloudy,16,89,Indoor,Berjalan,3,Tops,Trousers,Sweatshirts,Casual Shoes
+Female,Cloudy,34,97,Outdoor,Bekerja,2,Shirts,Shorts,None,Casual Shoes
+Male,Rainy,32,66,Indoor,Bekerja,23,Shirts,Trousers,Jackets,Boots
+Female,Berawan,40,95,Outdoor,Berjalan,17,Tshirts,Skirts,None,Casual Shoes
+Female,Gerimis,11,88,Indoor,Bekerja,9,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Gerimis,14,96,Indoor,Bekerja,23,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Cloudy,36,95,Indoor,Berjalan,8,Tshirts,Shorts,None,Casual Shoes
+Male,Rainy,27,95,Outdoor,Bekerja,18,Shirts,Trousers,Jackets,Boots
+Female,Cloudy,27,65,Indoor,Kondangan,18,Tops,Skirts,None,Sepatu Hak
+Male,Rainy,11,78,Indoor,Olahraga,15,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Female,Cloudy,23,65,Outdoor,Santai,18,Tshirts,Trousers,None,Sandals
+Male,Gerimis,27,91,Indoor,Santai,15,Tshirts,Trousers,None,Sandals
+Female,Berawan,35,64,Indoor,Santai,13,Tshirts,Shorts,None,Sandals
+Male,Sunny,38,79,Outdoor,Santai,7,Tshirts,Shorts,None,Sandals
+Female,Sunny,30,96,Indoor,Kondangan,17,Tops,Skirts,None,Sepatu Hak
+Male,Rainy,35,94,Indoor,Kondangan,15,Blazers,Shorts,Jackets,Boots
+Female,Gerimis,31,81,Indoor,Berjalan,21,Tshirts,Trousers,None,Casual Shoes
+Male,Gerimis,18,81,Outdoor,Olahraga,11,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Male,Cloudy,18,84,Indoor,Kondangan,22,Blazers,Trousers,Sweatshirts,Formal Shoes
+Male,Rainy,14,99,Indoor,Santai,14,Shirts,Trousers,Jackets,Boots
+Female,Cloudy,27,83,Outdoor,Bekerja,16,Shirts,Trousers,None,Casual Shoes
+Female,Rainy,16,100,Outdoor,Olahraga,3,Tshirts,Legging,Jackets,Casual Shoes
+Female,Sunny,38,78,Indoor,Olahraga,21,Tshirts,Legging,None,Casual Shoes
+Female,Cloudy,8,89,Outdoor,Bekerja,18,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,10,80,Outdoor,Santai,22,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Berawan,17,88,Outdoor,Olahraga,14,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Female,Sunny,17,76,Indoor,Berjalan,15,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,34,97,Outdoor,Santai,6,Tshirts,Skirts,None,Sandals
+Female,Sunny,10,78,Outdoor,Berjalan,10,Tops,Trousers,Sweatshirts,Casual Shoes
+Female,Rainy,12,74,Indoor,Olahraga,7,Tshirts,Legging,Jackets,Casual Shoes
+Male,Sunny,15,67,Indoor,Santai,20,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Rainy,12,81,Indoor,Berjalan,11,Shirts,Trousers,Jackets,Boots
+Female,Rainy,17,92,Indoor,Bekerja,23,Shirts,Trousers,Jackets,Boots
+Male,Sunny,9,83,Indoor,Santai,11,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Cloudy,17,83,Outdoor,Santai,10,Tshirts,Trousers,Sweatshirts,Sandals
+Female,Cloudy,32,84,Indoor,Bekerja,23,Shirts,Trousers,None,Casual Shoes
+Female,Gerimis,18,64,Indoor,Olahraga,24,Tshirts,Legging,Sweatshirts,Casual Shoes
+Female,Sunny,9,79,Outdoor,Berjalan,4,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Rainy,34,97,Indoor,Berjalan,11,Tshirts,Skirts,Jackets,Boots
+Female,Gerimis,24,79,Indoor,Bekerja,16,Shirts,Trousers,None,Casual Shoes
+Male,Cloudy,34,61,Outdoor,Olahraga,10,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Sunny,28,90,Outdoor,Santai,19,Tshirts,Trousers,None,Sandals
+Female,Gerimis,19,100,Indoor,Olahraga,4,Tshirts,Legging,Sweatshirts,Casual Shoes
+Male,Cloudy,11,93,Outdoor,Berjalan,16,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,22,92,Indoor,Olahraga,2,Tshirts,Celana Olahraga,Jackets,Casual Shoes
+Female,Cloudy,29,84,Indoor,Olahraga,18,Tshirts,Legging,None,Casual Shoes
+Female,Cloudy,38,65,Outdoor,Olahraga,24,Tshirts,Legging,None,Casual Shoes
+Male,Gerimis,25,94,Outdoor,Kondangan,23,Blazers,Trousers,None,Formal Shoes
+Male,Gerimis,27,78,Outdoor,Berjalan,24,Tshirts,Trousers,None,Casual Shoes
+Female,Cloudy,33,81,Outdoor,Santai,15,Tshirts,Shorts,None,Sandals
+Female,Berawan,10,88,Indoor,Bekerja,12,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,31,87,Indoor,Kondangan,19,Tops,Skirts,None,Sepatu Hak
+Female,Gerimis,15,95,Indoor,Olahraga,11,Tshirts,Legging,Sweatshirts,Casual Shoes
+Male,Berawan,23,75,Outdoor,Santai,2,Shirts,Trousers,None,Sandals
+Male,Rainy,25,84,Outdoor,Bekerja,21,Shirts,Trousers,Jackets,Boots
+Female,Gerimis,35,63,Indoor,Santai,12,Tshirts,Shorts,None,Sandals
+Female,Berawan,15,96,Outdoor,Santai,24,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Gerimis,35,87,Outdoor,Berjalan,12,Tshirts,Shorts,None,Casual Shoes
+Male,Berawan,12,94,Outdoor,Kondangan,18,Blazers,Trousers,Sweatshirts,Formal Shoes
+Female,Sunny,34,71,Outdoor,Kondangan,22,Tops,Skirts,None,Sepatu Hak
+Male,Berawan,14,66,Outdoor,Santai,11,Shirts,Trousers,Sweatshirts,Sandals
+Female,Berawan,14,91,Indoor,Kondangan,7,Tops,Skirts,Sweatshirts,Sepatu Hak
+Female,Sunny,18,70,Indoor,Olahraga,18,Tshirts,Legging,Sweatshirts,Casual Shoes
+Female,Berawan,34,65,Outdoor,Kondangan,4,Tops,Skirts,None,Sepatu Hak
+Female,Rainy,19,82,Outdoor,Bekerja,14,Shirts,Trousers,Jackets,Boots
+Female,Cloudy,33,75,Indoor,Bekerja,7,Shirts,Skirts,None,Casual Shoes
+Female,Berawan,22,76,Indoor,Olahraga,13,Tshirts,Legging,None,Casual Shoes
+Female,Rainy,22,81,Indoor,Santai,18,Tops,Trousers,Jackets,Boots
+Female,Rainy,25,82,Outdoor,Kondangan,24,Tops,Skirts,Jackets,Boots
+Female,Cloudy,39,64,Outdoor,Olahraga,5,Tshirts,Legging,None,Casual Shoes
+Female,Rainy,9,100,Indoor,Berjalan,7,Tops,Trousers,Jackets,Boots
+Female,Gerimis,19,68,Outdoor,Santai,8,Tshirts,Trousers,Sweatshirts,Sandals
+Female,Berawan,15,66,Outdoor,Berjalan,9,Tops,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,16,69,Indoor,Bekerja,10,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Rainy,24,79,Indoor,Bekerja,16,Shirts,Trousers,Jackets,Boots
+Female,Gerimis,26,100,Indoor,Bekerja,15,Shirts,Trousers,None,Casual Shoes
+Female,Cloudy,9,67,Indoor,Berjalan,10,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,17,78,Indoor,Bekerja,9,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,36,92,Outdoor,Olahraga,12,Tshirts,Legging,None,Casual Shoes
+Female,Sunny,15,96,Outdoor,Santai,3,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Berawan,34,78,Outdoor,Santai,19,Tshirts,Shorts,None,Sandals
+Female,Gerimis,14,71,Indoor,Kondangan,10,Tops,Skirts,Sweatshirts,Sepatu Hak
+Female,Cloudy,27,71,Outdoor,Berjalan,13,Tops,Trousers,None,Casual Shoes
+Male,Cloudy,19,68,Outdoor,Kondangan,16,Blazers,Trousers,Sweatshirts,Formal Shoes
+Male,Sunny,15,68,Outdoor,Santai,3,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Gerimis,18,77,Outdoor,Berjalan,4,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Cloudy,26,76,Indoor,Kondangan,11,Tops,Skirts,None,Sepatu Hak
+Male,Gerimis,30,69,Indoor,Santai,6,Shirts,Trousers,None,Sandals
+Male,Rainy,13,98,Indoor,Bekerja,7,Shirts,Trousers,Jackets,Boots
+Male,Berawan,24,90,Indoor,Berjalan,11,Tshirts,Trousers,None,Casual Shoes
+Male,Rainy,35,67,Outdoor,Kondangan,6,Blazers,Shorts,Jackets,Boots
+Female,Rainy,31,63,Outdoor,Santai,16,Shirts,Trousers,Jackets,Boots
+Female,Berawan,25,70,Indoor,Santai,17,Tshirts,Trousers,None,Sandals
+Female,Rainy,29,83,Indoor,Bekerja,11,Shirts,Trousers,Jackets,Boots
+Female,Berawan,35,86,Outdoor,Bekerja,14,Shirts,Shorts,None,Casual Shoes
+Female,Berawan,13,95,Indoor,Santai,13,Tshirts,Trousers,Sweatshirts,Sandals
+Female,Sunny,30,85,Outdoor,Kondangan,5,Tops,Skirts,None,Sepatu Hak
+Male,Sunny,15,61,Outdoor,Santai,1,Tshirts,Trousers,Sweatshirts,Sandals
+Female,Berawan,10,88,Outdoor,Olahraga,12,Tshirts,Legging,Sweatshirts,Casual Shoes
+Female,Rainy,16,68,Indoor,Kondangan,17,Tops,Skirts,Jackets,Boots
+Male,Rainy,14,69,Outdoor,Berjalan,20,Tshirts,Trousers,Jackets,Boots
+Male,Gerimis,32,79,Indoor,Olahraga,3,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Cloudy,39,76,Indoor,Bekerja,23,Shirts,Shorts,None,Casual Shoes
+Female,Cloudy,33,68,Outdoor,Bekerja,15,Shirts,Shorts,None,Casual Shoes
+Female,Sunny,27,83,Outdoor,Olahraga,12,Tshirts,Legging,None,Casual Shoes
+Male,Rainy,23,87,Outdoor,Santai,9,Tshirts,Trousers,Jackets,Boots
+Female,Rainy,19,82,Outdoor,Bekerja,15,Shirts,Trousers,Jackets,Boots
+Female,Sunny,39,70,Outdoor,Santai,8,Tshirts,Shorts,None,Sandals
+Male,Berawan,36,94,Indoor,Olahraga,23,Tshirts,Celana Olahraga,None,Casual Shoes
+Male,Berawan,26,88,Indoor,Kondangan,24,Blazers,Trousers,None,Formal Shoes
+Female,Gerimis,30,86,Indoor,Bekerja,12,Shirts,Trousers,None,Casual Shoes
+Female,Rainy,31,66,Indoor,Kondangan,18,Tops,Skirts,Jackets,Boots
+Female,Berawan,26,88,Indoor,Bekerja,22,Shirts,Trousers,None,Casual Shoes
+Male,Berawan,29,97,Outdoor,Berjalan,20,Tshirts,Trousers,None,Casual Shoes
+Male,Berawan,14,89,Indoor,Santai,18,Shirts,Trousers,Sweatshirts,Sandals
+Female,Cloudy,12,68,Indoor,Bekerja,1,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Cloudy,15,99,Indoor,Kondangan,3,Blazers,Trousers,Sweatshirts,Formal Shoes
+Female,Cloudy,22,73,Indoor,Bekerja,2,Shirts,Trousers,None,Casual Shoes
+Female,Rainy,10,87,Indoor,Bekerja,23,Shirts,Trousers,Jackets,Boots
+Female,Gerimis,40,81,Outdoor,Kondangan,12,Tops,Skirts,None,Sepatu Hak
+Male,Sunny,18,73,Indoor,Kondangan,17,Blazers,Trousers,Sweatshirts,Formal Shoes
+Male,Gerimis,9,82,Indoor,Santai,12,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Gerimis,12,78,Outdoor,Santai,14,Tshirts,Trousers,Sweatshirts,Sandals
+Female,Sunny,27,73,Indoor,Olahraga,23,Tshirts,Legging,None,Casual Shoes
+Male,Rainy,24,61,Indoor,Kondangan,6,Blazers,Trousers,Jackets,Boots
+Female,Gerimis,24,87,Indoor,Olahraga,12,Tshirts,Legging,None,Casual Shoes
+Male,Gerimis,19,93,Outdoor,Berjalan,16,Shirts,Trousers,Sweatshirts,Casual Shoes
+Male,Sunny,27,84,Outdoor,Bekerja,19,Shirts,Trousers,None,Casual Shoes
+Male,Gerimis,32,94,Indoor,Berjalan,16,Tshirts,Trousers,None,Casual Shoes
+Female,Sunny,35,90,Outdoor,Kondangan,7,Tops,Skirts,None,Sepatu Hak
+Male,Cloudy,18,95,Outdoor,Olahraga,23,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Male,Cloudy,17,78,Indoor,Olahraga,6,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Male,Berawan,11,77,Outdoor,Berjalan,7,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Male,Berawan,38,80,Outdoor,Santai,9,Tshirts,Shorts,None,Sandals
+Male,Berawan,8,90,Indoor,Kondangan,14,Blazers,Trousers,Sweatshirts,Formal Shoes
+Female,Berawan,14,90,Indoor,Santai,4,Tops,Trousers,Sweatshirts,Sandals
+Male,Cloudy,28,85,Indoor,Berjalan,18,Tshirts,Trousers,None,Casual Shoes
+Male,Rainy,35,85,Indoor,Berjalan,7,Tshirts,Shorts,Jackets,Boots
+Male,Sunny,26,95,Indoor,Berjalan,17,Shirts,Trousers,None,Casual Shoes
+Female,Berawan,23,94,Indoor,Santai,17,Shirts,Trousers,None,Sandals
+Male,Berawan,17,85,Indoor,Olahraga,2,Tshirts,Celana Olahraga,Sweatshirts,Casual Shoes
+Female,Gerimis,8,86,Indoor,Bekerja,8,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,10,68,Indoor,Santai,13,Tshirts,Trousers,Sweatshirts,Sandals
+Male,Sunny,28,99,Indoor,Santai,22,Tshirts,Trousers,None,Sandals
+Female,Cloudy,17,64,Outdoor,Bekerja,5,Shirts,Trousers,Sweatshirts,Casual Shoes
+Female,Berawan,8,78,Indoor,Berjalan,2,Tshirts,Trousers,Sweatshirts,Casual Shoes
+Male,Sunny,40,79,Outdoor,Bekerja,15,Shirts,Shorts,None,Casual Shoes
+Male,Sunny,39,61,Indoor,Olahraga,10,Tshirts,Celana Olahraga,None,Casual Shoes
+Female,Sunny,34,62,Outdoor,Olahraga,18,Tshirts,Legging,None,Casual Shoes
+Female,Berawan,33,92,Indoor,Bekerja,6,Shirts,Shorts,None,Casual Shoes
+Male,Sunny,16,60,Indoor,Santai,10,Shirts,Trousers,Sweatshirts,Sandals
+Female,Sunny,13,95,Indoor,Santai,11,Tops,Trousers,Sweatshirts,Sandals
+Male,Rainy,8,80,Indoor,Santai,15,Shirts,Trousers,Jackets,Boots
+Male,Gerimis,12,62,Outdoor,Santai,3,Tshirts,Trousers,Sweatshirts,Sandals

@@ -16,11 +16,10 @@ users_csv = os.path.join(data_dir, "users.csv")
 
 def initialize_db():
     os.makedirs(images_dir, exist_ok=True)
-    if not os.path.exists(users_csv):
+    if not os.path.exists(users_csv) or os.path.getsize(users_csv) == 0:
         df = pd.DataFrame(columns=["email", "username", "password_hash", "reset_token", "token_expiry"])
         df.to_csv(users_csv, index=False)
     else:
-        # تأكد بلي الأعمدة الجديدة كاينة، وإلا زيدهم (باش ماتبانش مشاكل مع الملفات القديمة)
         df = pd.read_csv(users_csv)
         updated = False
         if "reset_token" not in df.columns:
@@ -41,9 +40,9 @@ def register_user(email, username, password):
     email = email.strip().lower()
     username = username.strip()
     
-    if email in df['email'].values:
+    if email in df['email'].astype(str).str.lower().values:
         return False, "Email already registered."
-    if username.lower() in df['username'].str.lower().values:
+    if username.lower() in df['username'].astype(str).str.lower().values:
         return False, "Username already taken."
         
     new_user = {
@@ -55,12 +54,14 @@ def register_user(email, username, password):
     return True, "Account created successfully!"
 
 def authenticate_user(login_input, password):
-    """يقبل الإيميل أو اسم المستخدم"""
     initialize_db()
     df = pd.read_csv(users_csv)
     login_input = login_input.strip().lower()
     
-    user_row = df[(df['email'] == login_input) | (df['username'].str.lower() == login_input)]
+    df['email'] = df['email'].astype(str)
+    df['username'] = df['username'].astype(str)
+    
+    user_row = df[(df['email'].str.lower() == login_input) | (df['username'].str.lower() == login_input)]
     
     if user_row.empty:
         return False, None, None
@@ -68,7 +69,6 @@ def authenticate_user(login_input, password):
     stored_hash = user_row.iloc[0]['password_hash']
     if stored_hash == hash_password(password):
         return True, user_row.iloc[0]['username'], user_row.iloc[0]['email']
-    
     return False, None, None
 
 def generate_reset_token(email):
@@ -76,14 +76,14 @@ def generate_reset_token(email):
     df = pd.read_csv(users_csv)
     email = email.strip().lower()
     
-    if email not in df['email'].values:
+    if email not in df['email'].astype(str).str.lower().values:
         return None
         
     token = ''.join(random.choices(string.digits, k=6))
     expiry = (datetime.now() + timedelta(minutes=15)).strftime("%Y-%m-%d %H:%M:%S")
     
-    df.loc[df['email'] == email, 'reset_token'] = token
-    df.loc[df['email'] == email, 'token_expiry'] = expiry
+    df.loc[df['email'].astype(str).str.lower() == email, 'reset_token'] = token
+    df.loc[df['email'].astype(str).str.lower() == email, 'token_expiry'] = expiry
     df.to_csv(users_csv, index=False)
     return token
 
@@ -92,7 +92,7 @@ def reset_password(email, token, new_password):
     df = pd.read_csv(users_csv)
     email = email.strip().lower()
     
-    user_row = df[df['email'] == email]
+    user_row = df[df['email'].astype(str).str.lower() == email]
     if user_row.empty:
         return False, "Email not found."
         
@@ -105,9 +105,9 @@ def reset_password(email, token, new_password):
     if pd.isna(stored_expiry) or datetime.now() > pd.to_datetime(stored_expiry):
         return False, "Reset code has expired. Please request a new one."
         
-    df.loc[df['email'] == email, 'password_hash'] = hash_password(new_password)
-    df.loc[df['email'] == email, 'reset_token'] = None
-    df.loc[df['email'] == email, 'token_expiry'] = None
+    df.loc[df['email'].astype(str).str.lower() == email, 'password_hash'] = hash_password(new_password)
+    df.loc[df['email'].astype(str).str.lower() == email, 'reset_token'] = None
+    df.loc[df['email'].astype(str).str.lower() == email, 'token_expiry'] = None
     df.to_csv(users_csv, index=False)
     return True, "Password reset successfully! You can now log in."
 
@@ -122,59 +122,89 @@ def get_user_files(email):
         pd.DataFrame(columns=["date", "weather", "temperature", "top_id", "bottom_id", "outer_id", "footwear_id", "hijab_id"]).to_csv(history_csv, index=False)
     return closet_csv, history_csv
 
-def add_item(email, image_file, category, color, name):
-    closet_csv, _ = get_user_files(email)
-    item_id = str(uuid.uuid4())[:8]
-    image_filename = f"{item_id}.jpg"
-    image_path = os.path.join(images_dir, image_filename)
-    
-    if isinstance(image_file, Image.Image):
-        image_obj = image_file.convert("RGB")
-    else:
-        image_obj = Image.open(image_file).convert("RGB")
-    image_obj.save(image_path, "JPEG")
-    
-    df = pd.read_csv(closet_csv)
-    new_row = {
-        "item_id": item_id, "image_path": image_path, "category": category.upper(),
-        "color": color.strip().lower(), "name": name.strip(),
-        "date_added": datetime.now().strftime("%Y-%m-%d")
-    }
-    df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
-    df.to_csv(closet_csv, index=False)
-    return item_id
+# ---- Paste at the bottom of src/database.py ----
 
 def get_closet(email):
     closet_csv, _ = get_user_files(email)
-    return pd.read_csv(closet_csv)
+    return pd.read_csv(closet_csv, dtype=str)
 
-def save_outfit_to_calendar(email, weather, temperature, top_id, bottom_id, outer_id, footwear_id, hijab_id=None):
-    _, history_csv = get_user_files(email)
-    df = pd.read_csv(history_csv)
-    new_entry = {
-        "date": datetime.now().strftime("%Y-%m-%d"), "weather": weather,
-        "temperature": temperature, "top_id": top_id, "bottom_id": bottom_id,
-        "outer_id": outer_id, "footwear_id": footwear_id, "hijab_id": hijab_id
-    }
-    df = df[df["date"] != new_entry["date"]]
-    df = pd.concat([df, pd.DataFrame([new_entry])], ignore_index=True)
-    df.to_csv(history_csv, index=False)
+
+def add_item(email, file, category, color, name):
+    if file is None or not file.filename:
+        return False, "Choose a photo first."
+    if category not in CATEGORIES:
+        return False, "Pick a valid category."
+    try:
+        img = Image.open(file.stream).convert("RGB")
+    except Exception:
+        return False, "That file isn't a readable image."
+    img.thumbnail((800, 800))
+    item_id = uuid.uuid4().hex[:8]
+    filename = f"{item_id}.jpg"
+    img.save(os.path.join(images_dir, filename), "JPEG", quality=85)
+
+    closet_csv, _ = get_user_files(email)
+    df = pd.read_csv(closet_csv, dtype=str)
+    row = {"item_id": item_id, "image_path": filename, "category": category,
+           "color": color.strip().lower(), "name": name.strip(),
+           "date_added": datetime.now().strftime("%Y-%m-%d")}
+    pd.concat([df, pd.DataFrame([row])], ignore_index=True).to_csv(closet_csv, index=False)
+    return True, "Added to your closet."
+
+
+def delete_item(email, item_id):
+    closet_csv, _ = get_user_files(email)
+    df = pd.read_csv(closet_csv, dtype=str)
+    gone = df[df["item_id"].astype(str) == str(item_id)]
+    for p in gone["image_path"].astype(str):
+        path = os.path.join(images_dir, p)
+        if os.path.exists(path):
+            os.remove(path)
+    df[df["item_id"].astype(str) != str(item_id)].to_csv(closet_csv, index=False)
+
 
 def get_items_worn_last_3_days(email):
     _, history_csv = get_user_files(email)
-    df = pd.read_csv(history_csv)
-    if df.empty: return []
-    three_days_ago = datetime.now() - timedelta(days=3)
-    df["date"] = pd.to_datetime(df["date"])
-    recent_df = df[df["date"] >= three_days_ago]
-    recent_ids = []
-    for col in ["top_id", "bottom_id", "outer_id", "footwear_id", "hijab_id"]:
-        if col in recent_df.columns:
-            recent_ids.extend(recent_df[col].dropna().tolist())
-    return list(set(recent_ids))
+    df = pd.read_csv(history_csv, dtype=str)
+    if df.empty:
+        return []
+    cutoff = datetime.now() - timedelta(days=3)
+    recent = df[pd.to_datetime(df["date"]) >= cutoff]
+    id_cols = [c for c in df.columns if c.endswith("_id")]
+    return [str(v) for v in recent[id_cols].values.ravel() if pd.notna(v)]
 
-def get_item_by_id(email, item_id):
-    df = get_closet(email)
-    match = df[df["item_id"] == item_id]
-    if not match.empty: return match.iloc[0].to_dict()
-    return None
+
+def save_outfit(email, weather, temperature, ids):
+    _, history_csv = get_user_files(email)
+    df = pd.read_csv(history_csv, dtype=str)
+    row = {"date": datetime.now().strftime("%Y-%m-%d"), "weather": weather,
+           "temperature": temperature}
+    for cat in CATEGORIES:
+        row[f"{cat.lower()}_id"] = ids.get(cat)
+    pd.concat([df, pd.DataFrame([row])], ignore_index=True).to_csv(history_csv, index=False)
+
+
+def get_weather_options():
+    path = os.path.join(base_dir, "data", "processed", "weather_en.csv")
+    if os.path.exists(path):
+        return sorted(pd.read_csv(path)["Weather"].dropna().unique())
+    return ["Sunny", "Cloudy", "Rainy", "Snowy"]
+
+def get_history(email):
+    """Returns {'YYYY-MM-DD': {'weather', 'temperature', 'items': [...]}} (last entry per day wins)."""
+    closet = get_closet(email).drop_duplicates("item_id").set_index("item_id")
+    _, history_csv = get_user_files(email)
+    df = pd.read_csv(history_csv, dtype=str)
+    order = ["HIJAB", "OUTER", "TOP", "BOTTOM", "FOOTWEAR"]
+    out = {}
+    for _, r in df.iterrows():
+        items = []
+        for cat in order:
+            iid = r.get(f"{cat.lower()}_id")
+            if pd.notna(iid) and iid in closet.index:
+                it = closet.loc[iid]
+                items.append({"category": cat, "name": it["name"], "color": it["color"],
+                              "image_path": it["image_path"]})
+        out[str(r["date"])[:10]] = {"weather": r["weather"],
+                                    "temperature": r["temperature"], "items": items}
+    return out

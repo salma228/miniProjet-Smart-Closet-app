@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block title %}Calendar{% endblock %}
+{% block page %}
+<div class="cal-head">
+  <a class="btn ghost sm" href="/calendar?m={{ prev_m }}" aria-label="Previous month">&lsaquo;</a>
+  <h2>{{ month_label }}</h2>
+  <a class="btn ghost sm" href="/calendar?m={{ next_m }}" aria-label="Next month">&rsaquo;</a>
+</div>
+<div class="cal">
+  {% for d in ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'] %}<div class="dow">{{ d }}</div>{% endfor %}
+  {% for week in weeks %}{% for day in week %}
+    {% if day == 0 %}<div class="day blank"></div>
+    {% else %}
+      {% set key = '%04d-%02d-%02d'|format(year, month, day) %}
+      {% set h = history.get(key) %}
+      <a class="day {{ 'today' if key == today }} {{ 'sel' if key == sel }}" href="/calendar?m={{ cur_m }}&d={{ key }}"
+         aria-label="{{ key }}{{ ', outfit logged' if h }}">
+        <span>{{ day }}</span>
+        {% if h %}<div class="thumbs">{% for it in h['items'][:4] %}<img src="{{ url_for('user_image', filename=it.image_path) }}" alt="">{% endfor %}</div>{% endif %}
+      </a>
+    {% endif %}
+  {% endfor %}{% endfor %}
+</div>
+
+{% if sel %}
+<section class="detail">
+  <h3>{{ sel_label }}</h3>
+  {% if sel_entry %}
+    <p class="meta">{{ sel_entry.weather }}, {{ sel_entry.temperature }}°C</p>
+    <div class="look">
+      {% for it in sel_entry['items'] %}
+      <div class="tile"><img src="{{ url_for('user_image', filename=it.image_path) }}" alt="{{ it.name }}"><p><b>{{ it.category.title() }}</b>{{ it.name }}</p></div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="meta">No outfit logged for this day.</p>
+  {% endif %}
+</section>
+{% endif %}
+{% endblock %}

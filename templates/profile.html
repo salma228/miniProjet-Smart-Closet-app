@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block title %}Profile{% endblock %}
+{% block page %}
+<div class="card">
+  <div class="avatar" aria-hidden="true">{{ (session.get('username') or '?')[0] }}</div>
+  <h2>{{ session.get('username') }}</h2>
+  <p class="app-subtitle">{{ session.get('email') }}</p>
+  <div class="stats">
+    <div><b>{{ pieces }}</b><span>pieces</span></div>
+    <div><b>{{ days_logged }}</b><span>days logged</span></div>
+  </div>
+  <div class="actions">
+    <form action="/toggle_theme" method="POST"><button class="btn ghost sm">{{ 'Light mode' if session.get('dark_mode') else 'Dark mode' }}</button></form>
+    <a class="btn sm" href="/logout">Log out</a>
+  </div>
+</div>
+{% endblock %}

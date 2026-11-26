@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+{% block title %}Add items{% endblock %}
+{% block page %}
+<form action="/closet/add" method="POST" enctype="multipart/form-data" class="add-grid">
+  <div>
+    <div class="frame" id="frame">
+      <video id="vid" autoplay playsinline muted hidden></video>
+      <img id="prev" alt="Preview of your piece" hidden>
+      <span id="hint">Take a photo or upload one</span>
+    </div>
+    <div class="src">
+      <button type="button" class="btn ghost sm" id="open">Take photo</button>
+      <button type="button" class="btn sm" id="snap" hidden>Capture</button>
+      <label class="btn ghost sm upl">Upload<input type="file" name="image" id="up" accept="image/*"></label>
+    </div>
+    <input type="file" name="shot" id="shot" accept="image/*" capture="environment" hidden>
+  </div>
+  <div class="form-col">
+    <label class="field"><span>Name</span><input type="text" name="name" placeholder="Linen wide-leg trousers" required></label>
+    <label class="field"><span>Category</span>
+      <select name="category">{% for c in categories %}<option value="{{ c }}">{{ c.title() }}</option>{% endfor %}</select></label>
+    <label class="field"><span>Main color</span>
+      <input type="text" name="color" list="colors" placeholder="beige" required>
+      <datalist id="colors">{% for c in ['black','white','beige','grey','navy','brown','red','pink','green','blue','purple','yellow'] %}<option value="{{ c }}">{% endfor %}</datalist></label>
+    <button class="btn">Add to wardrobe</button>
+  </div>
+</form>
+<script>
+const $=id=>document.getElementById(id),frame=$('frame'),vid=$('vid'),prev=$('prev'),openB=$('open'),snap=$('snap'),up=$('up'),shot=$('shot');
+let stream;
+function stop(){stream&&stream.getTracks().forEach(t=>t.stop());stream=null;vid.hidden=true;snap.hidden=true;openB.hidden=false}
+function show(f){prev.src=URL.createObjectURL(f);prev.hidden=false;vid.hidden=true;$('hint').hidden=true;frame.classList.add('has')}
+openB.onclick=async()=>{
+  if(!(window.isSecureContext&&navigator.mediaDevices&&navigator.mediaDevices.getUserMedia)){shot.click();return}
+  try{
+    stream=await navigator.mediaDevices.getUserMedia({video:{facingMode:'environment'}});
+    vid.srcObject=stream;vid.hidden=false;prev.hidden=true;$('hint').hidden=true;frame.classList.add('has');snap.hidden=false;openB.hidden=true;
+  }catch(e){shot.click()}
+};
+shot.onchange=()=>{if(shot.files[0]){up.value='';show(shot.files[0])}};
+snap.onclick=()=>{const c=document.createElement('canvas');c.width=vid.videoWidth;c.height=vid.videoHeight;c.getContext('2d').drawImage(vid,0,0);
+  c.toBlob(b=>{const f=new File([b],'shot.jpg',{type:'image/jpeg'}),dt=new DataTransfer();dt.items.add(f);shot.files=dt.files;up.value='';show(f);stop()},'image/jpeg',.9)};
+up.onchange=()=>{if(up.files[0]){shot.value='';show(up.files[0])}};
+</script>
+{% endblock %}

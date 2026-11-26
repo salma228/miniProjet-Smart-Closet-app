@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block title %}Wardrobe{% endblock %}
+{% block page %}
+{% if closet %}
+  <div class="chips" role="group" aria-label="Filter by category">
+    <button class="chip" type="button" data-filter="ALL" aria-pressed="true">All ({{ closet|length }})</button>
+    {% for c in categories %}<button class="chip" type="button" data-filter="{{ c }}" aria-pressed="false">{{ c.title() }}</button>{% endfor %}
+  </div>
+  <div class="grid">
+    {% for it in closet %}
+    <article class="item" data-cat="{{ it.category }}">
+      <img src="{{ url_for('user_image', filename=it.image_path) }}" alt="{{ it.name }}" loading="lazy">
+      <p>{{ it.name }}<br><small>{{ it.category.title() }}, {{ it.color }}</small></p>
+      <form action="/closet/delete/{{ it.item_id }}" method="POST" onsubmit="return confirm('Remove this piece?')"><button class="link">Remove</button></form>
+    </article>
+    {% endfor %}
+  </div>
+  <script>
+  document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{
+    document.querySelectorAll('.chip').forEach(c=>c.setAttribute('aria-pressed',c===b));
+    document.querySelectorAll('.item').forEach(i=>i.hidden=b.dataset.filter!=='ALL'&&i.dataset.cat!==b.dataset.filter);
+  }));
+  </script>
+{% else %}
+  <div class="empty">Your wardrobe is empty. Add your first piece to get outfit suggestions.<br><a class="btn sm" href="/add">Add items</a></div>
+{% endif %}
+{% endblock %}

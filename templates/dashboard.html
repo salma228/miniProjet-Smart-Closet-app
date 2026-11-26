@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+{% block title %}Stylist{% endblock %}
+{% block page %}
+<div class="chat">
+  <div class="msg">
+    <div class="agent-av" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg></div>
+    <div class="bubble">Hi {{ session.get('username') }}. Tell me the weather and temperature, and I'll put an outfit together from your wardrobe.</div>
+  </div>
+
+  {% if closet_count == 0 %}
+  <div class="msg"><div class="agent-av" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg></div>
+    <div class="bubble">Your wardrobe is empty. Add a few pieces first.<div class="actions" style="margin-top:8px"><a class="btn sm" href="/add">Add items</a></div></div></div>
+  {% endif %}
+
+  {% if result and result.outfit %}
+  <div class="msg me"><div class="bubble">{{ result.weather }}, {{ result.temperature }}°C</div></div>
+  <div class="msg" id="reply">
+    <div class="agent-av" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg></div>
+    <div class="bubble">
+      Here's what I'd wear:
+      <div class="look">
+        {% for cat in ['HIJAB','OUTER','TOP','BOTTOM','FOOTWEAR'] %}
+          {% set it = result.outfit.get(cat) %}
+          {% if it %}
+            <div class="tile"><img src="{{ url_for('user_image', filename=it.image_path) }}" alt="{{ it.name }}">
+              <p><b>{{ cat.title() }}</b>{{ it.name }}{% if it.warning %}<span class="warn">{{ it.warning }}</span>{% endif %}</p></div>
+          {% elif cat in result.missing_categories %}
+            <div class="tile missing"><div class="ph"></div><p><b>{{ cat.title() }}</b>None yet</p></div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="actions">
+        <form action="/wear" method="POST">
+          <input type="hidden" name="weather" value="{{ result.weather }}">
+          <input type="hidden" name="temperature" value="{{ result.temperature }}">
+          {% for cat, it in result.outfit.items() if it %}<input type="hidden" name="{{ cat|lower }}_id" value="{{ it.item_id }}">{% endfor %}
+          <button class="btn sm">Wear this today</button>
+        </form>
+        <form action="/recommend" method="POST">
+          <input type="hidden" name="weather" value="{{ result.weather }}">
+          <input type="hidden" name="temperature" value="{{ result.temperature }}">
+          <button class="btn ghost sm">Try another</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  {% for m in result.messages %}
+  <div class="msg"><div class="agent-av" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg></div>
+    <div class="bubble">{{ m }}{% if loop.first %}<div class="actions" style="margin-top:8px"><a class="btn ghost sm" href="/add">Add items</a></div>{% endif %}</div></div>
+  {% endfor %}
+  {% endif %}
+</div>
+{% endblock %}
+{% block after %}
+<form class="composer" action="/recommend" method="POST">
+  <div class="composer-in">
+    <div class="pills" role="radiogroup" aria-label="Weather">
+      {% for w in weather_options %}
+      <label class="pill"><input type="radio" name="weather" value="{{ w }}" {{ 'checked' if (weather == w or (not weather and loop.first)) }}><span>{{ w }}</span></label>
+      {% endfor %}
+    </div>
+    <div class="send">
+      <label>Temp °C <input type="number" name="temperature" min="-30" max="55" step="1" value="{{ temp if temp is not none else 20 }}" required></label>
+      <button class="btn">Pick my outfit</button>
+    </div>
+  </div>
+</form>
+<script>document.getElementById('reply')?.scrollIntoView({block:'start'});</script>
+{% endblock %}
